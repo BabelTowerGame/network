@@ -4,7 +4,6 @@ import (
 	"log"
 	"net"
 
-	//"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	pb "github.com/BabelTowerGame/network/tob"
 	"google.golang.org/grpc/reflection"
@@ -67,7 +66,7 @@ func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 				Id: id,
 				Type: pb.ServerEventType_SERVER_CHANGE,
 			},
-		})
+		}, false)
 	}
 	s.serverNodeMutex.Unlock()
 
@@ -99,6 +98,8 @@ func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 				}
 				i--
 			}
+			// Set the node as the new server node
+			s.serverNode = newServer
 			// Tell all nodes the new server
 			s.broadcast(&pb.Event{
 				Topic: pb.EventTopic_SERVER_EVENT,
@@ -106,9 +107,7 @@ func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 					Id: newServer,
 					Type: pb.ServerEventType_SERVER_CHANGE,
 				},
-			})
-			// Set the node as the new server node
-			s.serverNode = newServer
+			}, true)
 		}
 	}
 
@@ -143,7 +142,7 @@ func (s *server) Publish(stream pb.ToB_PublishServer) error {
 			// Ignore the event
 		default:
 			if id == s.serverNode {
-				s.broadcast(event)
+				s.broadcast(event, false)
 			} else {
 				s.nodes[s.serverNode].Send(event)
 			}
@@ -152,9 +151,9 @@ func (s *server) Publish(stream pb.ToB_PublishServer) error {
 	return nil
 }
 
-func (s *server) broadcast(event *pb.Event) error {
+func (s *server) broadcast(event *pb.Event, includeServer bool) error {
 	for id, stream := range s.nodes {
-		if id != s.serverNode {
+		if includeServer || id != s.serverNode {
 			stream.Send(event)
 		}
 	}
