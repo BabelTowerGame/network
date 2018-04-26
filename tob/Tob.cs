@@ -35,40 +35,44 @@ namespace Tob {
             "EgwKBG5hbWUYASABKAkSGwoGZ2VuZGVyGAIgASgOMgsudG9iLkdlbmRlchIR",
             "CgloYWlyQ29sb3IYAyABKAUiaQoNUGxheWVyRXF1aXBlZBIOCgZ3ZWFwb24Y",
             "ASABKAkSDAoEaGVhZBgCIAEoCRINCgVjaGVzdBgDIAEoCRIMCgRsZWdzGAQg",
-            "ASgJEg0KBXNob2VzGAUgASgJEg4KBnNoaWVsZBgGIAEoCSKEAgoLUGxheWVy",
-            "RXZlbnQSCgoCaWQYASABKAkSIgoEdHlwZRgCIAEoDjIULnRvYi5QbGF5ZXJF",
-            "dmVudFR5cGUSIgoEbW92ZRgDIAEoCzIULnRvYi5QbGF5ZXJNb3ZlRXZlbnQS",
-            "HQoIcG9zaXRpb24YBCABKAsyCy50b2IuVmVjdG9yEiIKBGNhc3QYBSABKAsy",
-            "FC50b2IuUGxheWVyQ2FzdEV2ZW50Eg4KBmRhbWFnZRgGIAEoAhIpCgphcHBl",
-            "YXJhbmNlGAcgASgLMhUudG9iLlBsYXllckFwcGVhcmFuY2USIwoHZXF1aXBl",
-            "ZBgIIAEoCzISLnRvYi5QbGF5ZXJFcXVpcGVkIngKEU1vbnN0ZXJTcGF3bkV2",
-            "ZW50EgoKAmlkGAEgASgJEhEKCWRlbW9uVHlwZRgCIAEoBRIRCglkZW1vblNr",
-            "aW4YAyABKAUSEgoKd2VhcG9uVHlwZRgEIAEoBRIdCghwb3NpdGlvbhgFIAEo",
-            "CzILLnRvYi5WZWN0b3IiTgoQTW9uc3Rlck1vdmVFdmVudBIdCghwb3NpdGlv",
-            "bhgBIAEoCzILLnRvYi5WZWN0b3ISGwoGdGFyZ2V0GAIgASgLMgsudG9iLlZl",
-            "Y3RvciJHChBNb25zdGVyTG9vdEV2ZW50EhAKCHBsYXllcklkGAEgASgJEg4K",
-            "Bml0ZW1JZBgCIAEoCRIRCgltb25zdGVySWQYAyABKAkisAEKDE1vbnN0ZXJF",
-            "dmVudBIKCgJpZBgBIAEoCRIjCgR0eXBlGAIgASgOMhUudG9iLk1vbnN0ZXJF",
-            "dmVudFR5cGUSJQoFc3Bhd24YAyABKAsyFi50b2IuTW9uc3RlclNwYXduRXZl",
-            "bnQSIwoEbG9vdBgEIAEoCzIVLnRvYi5Nb25zdGVyTG9vdEV2ZW50EiMKBG1v",
-            "dmUYBSABKAsyFS50b2IuTW9uc3Rlck1vdmVFdmVudCJ/CgVFdmVudBIeCgV0",
-            "b3BpYxgBIAEoDjIPLnRvYi5FdmVudFRvcGljEhsKAXMYAiABKAsyEC50b2Iu",
-            "U2VydmVyRXZlbnQSGwoBcBgDIAEoCzIQLnRvYi5QbGF5ZXJFdmVudBIcCgFt",
-            "GAQgASgLMhEudG9iLk1vbnN0ZXJFdmVudCpDCgpFdmVudFRvcGljEhAKDFNF",
-            "UlZFUl9FVkVOVBAAEhAKDFBMQVlFUl9FVkVOVBABEhEKDU1PTlNURVJfRVZF",
-            "TlQQAio2Cg9TZXJ2ZXJFdmVudFR5cGUSEQoNU0VSVkVSX0NIQU5HRRAAEhAK",
-            "DFNFUlZFUl9ZSUVMRBABKsgBCg9QbGF5ZXJFdmVudFR5cGUSEAoMUExBWUVS",
-            "X0VOVEVSEAASDwoLUExBWUVSX0VYSVQQARIPCgtQTEFZRVJfTU9WRRACEg8K",
-            "C1BMQVlFUl9DQVNUEAMSEgoOUExBWUVSX0RBTUFHRUQQBBIOCgpQTEFZRVJf",
-            "RElFEAUSDwoLUExBWUVSX0pVTVAQBhIRCg1QTEFZRVJfQ1JPVUNIEAcSEwoP",
-            "UExBWUVSX1BPU0lUSU9OEAgSEwoPUExBWUVSX0VRVUlQUEVEEAkqHgoGR2Vu",
-            "ZGVyEggKBE1BTEUQABIKCgZGRU1BTEUQASqcAQoQTW9uc3RlckV2ZW50VHlw",
-            "ZRIRCg1NT05TVEVSX1NQQVdOEAASEAoMTU9OU1RFUl9NT1ZFEAESEgoOTU9O",
-            "U1RFUl9BVFRBQ0sQAhIPCgtNT05TVEVSX0RJRRADEhMKD01PTlNURVJfREVT",
-            "VFJPWRAEEhAKDE1PTlNURVJfTE9PVBAFEhcKE01PTlNURVJfTE9PVF9SRVNV",
-            "TFQQBjJRCgNUb0ISJQoJU3Vic2NyaWJlEgoudG9iLkVtcHR5GgoudG9iLkV2",
-            "ZW50MAESIwoHUHVibGlzaBIKLnRvYi5FdmVudBoKLnRvYi5FbXB0eSgBYgZw",
-            "cm90bzM="));
+            "ASgJEg0KBXNob2VzGAUgASgJEg4KBnNoaWVsZBgGIAEoCSJ9ChRQbGF5ZXJB",
+            "bmltYXRpb25FdmVudBIRCglzdGF0ZUhhc2gYASADKAUSFgoObm9ybWFsaXpl",
+            "ZFRpbWUYAiADKAISEQoJaW50UGFyYW1zGAMgAygFEhMKC2Zsb2F0UGFyYW1z",
+            "GAQgAygCEhIKCmJvb2xQYXJhbXMYBSADKAgisgIKC1BsYXllckV2ZW50EgoK",
+            "AmlkGAEgASgJEiIKBHR5cGUYAiABKA4yFC50b2IuUGxheWVyRXZlbnRUeXBl",
+            "EiIKBG1vdmUYAyABKAsyFC50b2IuUGxheWVyTW92ZUV2ZW50Eh0KCHBvc2l0",
+            "aW9uGAQgASgLMgsudG9iLlZlY3RvchIiCgRjYXN0GAUgASgLMhQudG9iLlBs",
+            "YXllckNhc3RFdmVudBIOCgZkYW1hZ2UYBiABKAISKQoKYXBwZWFyYW5jZRgH",
+            "IAEoCzIVLnRvYi5QbGF5ZXJBcHBlYXJhbmNlEiMKB2VxdWlwZWQYCCABKAsy",
+            "Ei50b2IuUGxheWVyRXF1aXBlZBIsCglhbmltYXRpb24YCSABKAsyGS50b2Iu",
+            "UGxheWVyQW5pbWF0aW9uRXZlbnQieAoRTW9uc3RlclNwYXduRXZlbnQSCgoC",
+            "aWQYASABKAkSEQoJZGVtb25UeXBlGAIgASgFEhEKCWRlbW9uU2tpbhgDIAEo",
+            "BRISCgp3ZWFwb25UeXBlGAQgASgFEh0KCHBvc2l0aW9uGAUgASgLMgsudG9i",
+            "LlZlY3RvciJOChBNb25zdGVyTW92ZUV2ZW50Eh0KCHBvc2l0aW9uGAEgASgL",
+            "MgsudG9iLlZlY3RvchIbCgZ0YXJnZXQYAiABKAsyCy50b2IuVmVjdG9yIkcK",
+            "EE1vbnN0ZXJMb290RXZlbnQSEAoIcGxheWVySWQYASABKAkSDgoGaXRlbUlk",
+            "GAIgASgJEhEKCW1vbnN0ZXJJZBgDIAEoCSKwAQoMTW9uc3RlckV2ZW50EgoK",
+            "AmlkGAEgASgJEiMKBHR5cGUYAiABKA4yFS50b2IuTW9uc3RlckV2ZW50VHlw",
+            "ZRIlCgVzcGF3bhgDIAEoCzIWLnRvYi5Nb25zdGVyU3Bhd25FdmVudBIjCgRs",
+            "b290GAQgASgLMhUudG9iLk1vbnN0ZXJMb290RXZlbnQSIwoEbW92ZRgFIAEo",
+            "CzIVLnRvYi5Nb25zdGVyTW92ZUV2ZW50In8KBUV2ZW50Eh4KBXRvcGljGAEg",
+            "ASgOMg8udG9iLkV2ZW50VG9waWMSGwoBcxgCIAEoCzIQLnRvYi5TZXJ2ZXJF",
+            "dmVudBIbCgFwGAMgASgLMhAudG9iLlBsYXllckV2ZW50EhwKAW0YBCABKAsy",
+            "ES50b2IuTW9uc3RlckV2ZW50KkMKCkV2ZW50VG9waWMSEAoMU0VSVkVSX0VW",
+            "RU5UEAASEAoMUExBWUVSX0VWRU5UEAESEQoNTU9OU1RFUl9FVkVOVBACKjYK",
+            "D1NlcnZlckV2ZW50VHlwZRIRCg1TRVJWRVJfQ0hBTkdFEAASEAoMU0VSVkVS",
+            "X1lJRUxEEAEq3gEKD1BsYXllckV2ZW50VHlwZRIQCgxQTEFZRVJfRU5URVIQ",
+            "ABIPCgtQTEFZRVJfRVhJVBABEg8KC1BMQVlFUl9NT1ZFEAISDwoLUExBWUVS",
+            "X0NBU1QQAxISCg5QTEFZRVJfREFNQUdFRBAEEg4KClBMQVlFUl9ESUUQBRIP",
+            "CgtQTEFZRVJfSlVNUBAGEhEKDVBMQVlFUl9DUk9VQ0gQBxITCg9QTEFZRVJf",
+            "UE9TSVRJT04QCBITCg9QTEFZRVJfRVFVSVBQRUQQCRIUChBQTEFZRVJfQU5J",
+            "TUFUSU9OEAoqHgoGR2VuZGVyEggKBE1BTEUQABIKCgZGRU1BTEUQASqcAQoQ",
+            "TW9uc3RlckV2ZW50VHlwZRIRCg1NT05TVEVSX1NQQVdOEAASEAoMTU9OU1RF",
+            "Ul9NT1ZFEAESEgoOTU9OU1RFUl9BVFRBQ0sQAhIPCgtNT05TVEVSX0RJRRAD",
+            "EhMKD01PTlNURVJfREVTVFJPWRAEEhAKDE1PTlNURVJfTE9PVBAFEhcKE01P",
+            "TlNURVJfTE9PVF9SRVNVTFQQBjJRCgNUb0ISJQoJU3Vic2NyaWJlEgoudG9i",
+            "LkVtcHR5GgoudG9iLkV2ZW50MAESIwoHUHVibGlzaBIKLnRvYi5FdmVudBoK",
+            "LnRvYi5FbXB0eSgBYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tob.EventTopic), typeof(global::Tob.ServerEventType), typeof(global::Tob.PlayerEventType), typeof(global::Tob.Gender), typeof(global::Tob.MonsterEventType), }, new pbr::GeneratedClrTypeInfo[] {
@@ -80,7 +84,8 @@ namespace Tob {
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerCastEvent), global::Tob.PlayerCastEvent.Parser, new[]{ "Id", "TargetId", "TargetPosition" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerAppearance), global::Tob.PlayerAppearance.Parser, new[]{ "Name", "Gender", "HairColor" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerEquiped), global::Tob.PlayerEquiped.Parser, new[]{ "Weapon", "Head", "Chest", "Legs", "Shoes", "Shield" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerEvent), global::Tob.PlayerEvent.Parser, new[]{ "Id", "Type", "Move", "Position", "Cast", "Damage", "Appearance", "Equiped" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerAnimationEvent), global::Tob.PlayerAnimationEvent.Parser, new[]{ "StateHash", "NormalizedTime", "IntParams", "FloatParams", "BoolParams" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerEvent), global::Tob.PlayerEvent.Parser, new[]{ "Id", "Type", "Move", "Position", "Cast", "Damage", "Appearance", "Equiped", "Animation" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.MonsterSpawnEvent), global::Tob.MonsterSpawnEvent.Parser, new[]{ "Id", "DemonType", "DemonSkin", "WeaponType", "Position" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.MonsterMoveEvent), global::Tob.MonsterMoveEvent.Parser, new[]{ "Position", "Target" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.MonsterLootEvent), global::Tob.MonsterLootEvent.Parser, new[]{ "PlayerId", "ItemId", "MonsterId" }, null, null, null),
@@ -120,6 +125,7 @@ namespace Tob {
     /// </summary>
     [pbr::OriginalName("PLAYER_POSITION")] PlayerPosition = 8,
     [pbr::OriginalName("PLAYER_EQUIPPED")] PlayerEquipped = 9,
+    [pbr::OriginalName("PLAYER_ANIMATION")] PlayerAnimation = 10,
   }
 
   public enum Gender {
@@ -1554,6 +1560,212 @@ namespace Tob {
 
   }
 
+  public sealed partial class PlayerAnimationEvent : pb::IMessage<PlayerAnimationEvent> {
+    private static readonly pb::MessageParser<PlayerAnimationEvent> _parser = new pb::MessageParser<PlayerAnimationEvent>(() => new PlayerAnimationEvent());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<PlayerAnimationEvent> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tob.TobReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PlayerAnimationEvent() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PlayerAnimationEvent(PlayerAnimationEvent other) : this() {
+      stateHash_ = other.stateHash_.Clone();
+      normalizedTime_ = other.normalizedTime_.Clone();
+      intParams_ = other.intParams_.Clone();
+      floatParams_ = other.floatParams_.Clone();
+      boolParams_ = other.boolParams_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PlayerAnimationEvent Clone() {
+      return new PlayerAnimationEvent(this);
+    }
+
+    /// <summary>Field number for the "stateHash" field.</summary>
+    public const int StateHashFieldNumber = 1;
+    private static readonly pb::FieldCodec<int> _repeated_stateHash_codec
+        = pb::FieldCodec.ForInt32(10);
+    private readonly pbc::RepeatedField<int> stateHash_ = new pbc::RepeatedField<int>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<int> StateHash {
+      get { return stateHash_; }
+    }
+
+    /// <summary>Field number for the "normalizedTime" field.</summary>
+    public const int NormalizedTimeFieldNumber = 2;
+    private static readonly pb::FieldCodec<float> _repeated_normalizedTime_codec
+        = pb::FieldCodec.ForFloat(18);
+    private readonly pbc::RepeatedField<float> normalizedTime_ = new pbc::RepeatedField<float>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<float> NormalizedTime {
+      get { return normalizedTime_; }
+    }
+
+    /// <summary>Field number for the "intParams" field.</summary>
+    public const int IntParamsFieldNumber = 3;
+    private static readonly pb::FieldCodec<int> _repeated_intParams_codec
+        = pb::FieldCodec.ForInt32(26);
+    private readonly pbc::RepeatedField<int> intParams_ = new pbc::RepeatedField<int>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<int> IntParams {
+      get { return intParams_; }
+    }
+
+    /// <summary>Field number for the "floatParams" field.</summary>
+    public const int FloatParamsFieldNumber = 4;
+    private static readonly pb::FieldCodec<float> _repeated_floatParams_codec
+        = pb::FieldCodec.ForFloat(34);
+    private readonly pbc::RepeatedField<float> floatParams_ = new pbc::RepeatedField<float>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<float> FloatParams {
+      get { return floatParams_; }
+    }
+
+    /// <summary>Field number for the "boolParams" field.</summary>
+    public const int BoolParamsFieldNumber = 5;
+    private static readonly pb::FieldCodec<bool> _repeated_boolParams_codec
+        = pb::FieldCodec.ForBool(42);
+    private readonly pbc::RepeatedField<bool> boolParams_ = new pbc::RepeatedField<bool>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<bool> BoolParams {
+      get { return boolParams_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as PlayerAnimationEvent);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(PlayerAnimationEvent other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!stateHash_.Equals(other.stateHash_)) return false;
+      if(!normalizedTime_.Equals(other.normalizedTime_)) return false;
+      if(!intParams_.Equals(other.intParams_)) return false;
+      if(!floatParams_.Equals(other.floatParams_)) return false;
+      if(!boolParams_.Equals(other.boolParams_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= stateHash_.GetHashCode();
+      hash ^= normalizedTime_.GetHashCode();
+      hash ^= intParams_.GetHashCode();
+      hash ^= floatParams_.GetHashCode();
+      hash ^= boolParams_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      stateHash_.WriteTo(output, _repeated_stateHash_codec);
+      normalizedTime_.WriteTo(output, _repeated_normalizedTime_codec);
+      intParams_.WriteTo(output, _repeated_intParams_codec);
+      floatParams_.WriteTo(output, _repeated_floatParams_codec);
+      boolParams_.WriteTo(output, _repeated_boolParams_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += stateHash_.CalculateSize(_repeated_stateHash_codec);
+      size += normalizedTime_.CalculateSize(_repeated_normalizedTime_codec);
+      size += intParams_.CalculateSize(_repeated_intParams_codec);
+      size += floatParams_.CalculateSize(_repeated_floatParams_codec);
+      size += boolParams_.CalculateSize(_repeated_boolParams_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(PlayerAnimationEvent other) {
+      if (other == null) {
+        return;
+      }
+      stateHash_.Add(other.stateHash_);
+      normalizedTime_.Add(other.normalizedTime_);
+      intParams_.Add(other.intParams_);
+      floatParams_.Add(other.floatParams_);
+      boolParams_.Add(other.boolParams_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10:
+          case 8: {
+            stateHash_.AddEntriesFrom(input, _repeated_stateHash_codec);
+            break;
+          }
+          case 18:
+          case 21: {
+            normalizedTime_.AddEntriesFrom(input, _repeated_normalizedTime_codec);
+            break;
+          }
+          case 26:
+          case 24: {
+            intParams_.AddEntriesFrom(input, _repeated_intParams_codec);
+            break;
+          }
+          case 34:
+          case 37: {
+            floatParams_.AddEntriesFrom(input, _repeated_floatParams_codec);
+            break;
+          }
+          case 42:
+          case 40: {
+            boolParams_.AddEntriesFrom(input, _repeated_boolParams_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class PlayerEvent : pb::IMessage<PlayerEvent> {
     private static readonly pb::MessageParser<PlayerEvent> _parser = new pb::MessageParser<PlayerEvent>(() => new PlayerEvent());
     private pb::UnknownFieldSet _unknownFields;
@@ -1562,7 +1774,7 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tob.TobReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Tob.TobReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1587,6 +1799,7 @@ namespace Tob {
       damage_ = other.damage_;
       Appearance = other.appearance_ != null ? other.Appearance.Clone() : null;
       Equiped = other.equiped_ != null ? other.Equiped.Clone() : null;
+      Animation = other.animation_ != null ? other.Animation.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1683,6 +1896,17 @@ namespace Tob {
       }
     }
 
+    /// <summary>Field number for the "animation" field.</summary>
+    public const int AnimationFieldNumber = 9;
+    private global::Tob.PlayerAnimationEvent animation_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Tob.PlayerAnimationEvent Animation {
+      get { return animation_; }
+      set {
+        animation_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as PlayerEvent);
@@ -1704,6 +1928,7 @@ namespace Tob {
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Damage, other.Damage)) return false;
       if (!object.Equals(Appearance, other.Appearance)) return false;
       if (!object.Equals(Equiped, other.Equiped)) return false;
+      if (!object.Equals(Animation, other.Animation)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1718,6 +1943,7 @@ namespace Tob {
       if (Damage != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Damage);
       if (appearance_ != null) hash ^= Appearance.GetHashCode();
       if (equiped_ != null) hash ^= Equiped.GetHashCode();
+      if (animation_ != null) hash ^= Animation.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1763,6 +1989,10 @@ namespace Tob {
         output.WriteRawTag(66);
         output.WriteMessage(Equiped);
       }
+      if (animation_ != null) {
+        output.WriteRawTag(74);
+        output.WriteMessage(Animation);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1794,6 +2024,9 @@ namespace Tob {
       }
       if (equiped_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Equiped);
+      }
+      if (animation_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Animation);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1844,6 +2077,12 @@ namespace Tob {
           equiped_ = new global::Tob.PlayerEquiped();
         }
         Equiped.MergeFrom(other.Equiped);
+      }
+      if (other.animation_ != null) {
+        if (animation_ == null) {
+          animation_ = new global::Tob.PlayerAnimationEvent();
+        }
+        Animation.MergeFrom(other.Animation);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1903,6 +2142,13 @@ namespace Tob {
             input.ReadMessage(equiped_);
             break;
           }
+          case 74: {
+            if (animation_ == null) {
+              animation_ = new global::Tob.PlayerAnimationEvent();
+            }
+            input.ReadMessage(animation_);
+            break;
+          }
         }
       }
     }
@@ -1917,7 +2163,7 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tob.TobReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Tob.TobReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2164,7 +2410,7 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tob.TobReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Tob.TobReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2333,7 +2579,7 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tob.TobReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Tob.TobReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2521,7 +2767,7 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tob.TobReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Tob.TobReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2780,7 +3026,7 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tob.TobReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Tob.TobReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

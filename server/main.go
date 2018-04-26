@@ -136,6 +136,7 @@ func (s *server) Publish(stream pb.ToB_PublishServer) error {
 		if err != nil {
 			return err
 		}
+		fmt.Printf("Received from %v: %v", id, event)
 		switch event.GetTopic() {
 		case pb.EventTopic_SERVER_EVENT:
 			// No one should publish server event
@@ -143,8 +144,10 @@ func (s *server) Publish(stream pb.ToB_PublishServer) error {
 		default:
 			if id == s.serverNode {
 				s.broadcast(event, false)
+				fmt.Printf("Broadcast to all nodes")
 			} else {
 				s.nodes[s.serverNode].Send(event)
+				fmt.Printf("Forward to server %v", s.serverNode)
 			}
 		}
 	}
