@@ -22,7 +22,6 @@ message ServerChangeEvent {
 message ServerEvent {
     string id = 1;
     ServerEventType type = 2;
-    ServerChangeEvent change = 3;
 }
 
 enum PlayerEventType {
@@ -30,7 +29,7 @@ enum PlayerEventType {
     PLAYER_EXIT = 1;
     PLAYER_MOVE = 2; // Indicate the player is moving
     PLAYER_CAST = 3;
-    PLAYER_DANMAGED = 4;
+    PLAYER_DAMAGED = 4;
     PLAYER_DIE = 5;
     PLAYER_JUMP = 6;
     PLAYER_CROUCH = 7;
@@ -81,7 +80,7 @@ message PlayerEvent {
     PlayerMoveEvent move = 3;
     Vector position = 4;
     PlayerCastEvent cast = 5;
-    float danmaged = 6;
+    float damage = 6;
     PlayerAppearance appearance = 7;
     PlayerEquiped equiped = 8;
 }
@@ -124,17 +123,14 @@ message MonsterEvent {
 }
 
 message Event {
-    EventTopic topic = 1;
-    ServerEvent s = 2;
-    PlayerEvent p = 3;
+    string id = 1; // Node id
+    EventTopic topic = 2;
+    ServerEvent s = 3;
+    PlayerEvent p = 4;
     MonsterEvent m = 5;
 }
 
-message NodeInfo {
-    string id = 1;
-}
-
 service ToB {
-    rpc Subscribe(NodeInfo) returns (stream Event);
+    rpc Subscribe(Empty) returns (stream Event);
     rpc Publish(stream Event) returns (Empty);
 }

@@ -7,18 +7,36 @@ import (
 	pb "github.com/BabelTowerGame/network/tob"
 	"context"
 	"sync"
+	"math/rand"
+	"time"
+	"google.golang.org/grpc/metadata"
 )
 
 var (
+	id string
 	eventChan = make(chan *pb.Event, 10)
 )
+
+func init() {
+	rand.Seed(time.Now().UnixNano())
+	id = RandStringRunes(32)
+}
+
+func RandStringRunes(n int) string {
+	var letterRunes = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+	b := make([]rune, n)
+	for i := range b {
+		b[i] = letterRunes[rand.Intn(len(letterRunes))]
+	}
+	return string(b)
+}
 
 func subscribeWorker(client pb.ToBClient, wg *sync.WaitGroup) {
 	defer wg.Done()
 
-	stream, err := client.Subscribe(context.Background(), &pb.NodeInfo{
-		Id: "node-id-fake",
-	})
+	ctx := metadata.AppendToOutgoingContext(context.Background(), "id", id)
+
+	stream, err := client.Subscribe(ctx, &pb.Empty{})
 	if err != nil {
 		log.Fatalf("Subscribe gRPC failed: %v\n", err)
 	}
@@ -36,7 +54,9 @@ func subscribeWorker(client pb.ToBClient, wg *sync.WaitGroup) {
 func publishWroker(client pb.ToBClient, wg *sync.WaitGroup) {
 	defer wg.Done()
 
-	stream, err := client.Publish(context.Background())
+	ctx := metadata.AppendToOutgoingContext(context.Background(), "id", id)
+
+	stream, err := client.Publish(ctx)
 	if err != nil {
 		log.Fatalf("Publish gRPC failed: %v\n", err)
 	}
