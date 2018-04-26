@@ -6,7 +6,7 @@ message Empty {}
 enum EventTopic {
     SERVER_EVENT = 0;
     PLAYER_EVENT = 1;
-    MONSTER_EVENT = 3;
+    MONSTER_EVENT = 2;
 }
 
 enum ServerEventType {
@@ -123,11 +123,10 @@ message MonsterEvent {
 }
 
 message Event {
-    string id = 1; // Node id
-    EventTopic topic = 2;
-    ServerEvent s = 3;
-    PlayerEvent p = 4;
-    MonsterEvent m = 5;
+    EventTopic topic = 1;
+    ServerEvent s = 2;
+    PlayerEvent p = 3;
+    MonsterEvent m = 4;
 }
 
 service ToB {

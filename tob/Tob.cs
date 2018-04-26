@@ -51,24 +51,24 @@ namespace Tob {
             "dmVudBIKCgJpZBgBIAEoCRIjCgR0eXBlGAIgASgOMhUudG9iLk1vbnN0ZXJF",
             "dmVudFR5cGUSJQoFc3Bhd24YAyABKAsyFi50b2IuTW9uc3RlclNwYXduRXZl",
             "bnQSIwoEbG9vdBgEIAEoCzIVLnRvYi5Nb25zdGVyTG9vdEV2ZW50EiMKBG1v",
-            "dmUYBSABKAsyFS50b2IuTW9uc3Rlck1vdmVFdmVudCKLAQoFRXZlbnQSCgoC",
-            "aWQYASABKAkSHgoFdG9waWMYAiABKA4yDy50b2IuRXZlbnRUb3BpYxIbCgFz",
-            "GAMgASgLMhAudG9iLlNlcnZlckV2ZW50EhsKAXAYBCABKAsyEC50b2IuUGxh",
-            "eWVyRXZlbnQSHAoBbRgFIAEoCzIRLnRvYi5Nb25zdGVyRXZlbnQqQwoKRXZl",
-            "bnRUb3BpYxIQCgxTRVJWRVJfRVZFTlQQABIQCgxQTEFZRVJfRVZFTlQQARIR",
-            "Cg1NT05TVEVSX0VWRU5UEAMqNgoPU2VydmVyRXZlbnRUeXBlEhEKDVNFUlZF",
-            "Ul9DSEFOR0UQABIQCgxTRVJWRVJfWUlFTEQQASrIAQoPUGxheWVyRXZlbnRU",
-            "eXBlEhAKDFBMQVlFUl9FTlRFUhAAEg8KC1BMQVlFUl9FWElUEAESDwoLUExB",
-            "WUVSX01PVkUQAhIPCgtQTEFZRVJfQ0FTVBADEhIKDlBMQVlFUl9EQU1BR0VE",
-            "EAQSDgoKUExBWUVSX0RJRRAFEg8KC1BMQVlFUl9KVU1QEAYSEQoNUExBWUVS",
-            "X0NST1VDSBAHEhMKD1BMQVlFUl9QT1NJVElPThAIEhMKD1BMQVlFUl9FUVVJ",
-            "UFBFRBAJKh4KBkdlbmRlchIICgRNQUxFEAASCgoGRkVNQUxFEAEqnAEKEE1v",
-            "bnN0ZXJFdmVudFR5cGUSEQoNTU9OU1RFUl9TUEFXThAAEhAKDE1PTlNURVJf",
-            "TU9WRRABEhIKDk1PTlNURVJfQVRUQUNLEAISDwoLTU9OU1RFUl9ESUUQAxIT",
-            "Cg9NT05TVEVSX0RFU1RST1kQBBIQCgxNT05TVEVSX0xPT1QQBRIXChNNT05T",
-            "VEVSX0xPT1RfUkVTVUxUEAYyUQoDVG9CEiUKCVN1YnNjcmliZRIKLnRvYi5F",
-            "bXB0eRoKLnRvYi5FdmVudDABEiMKB1B1Ymxpc2gSCi50b2IuRXZlbnQaCi50",
-            "b2IuRW1wdHkoAWIGcHJvdG8z"));
+            "dmUYBSABKAsyFS50b2IuTW9uc3Rlck1vdmVFdmVudCJ/CgVFdmVudBIeCgV0",
+            "b3BpYxgBIAEoDjIPLnRvYi5FdmVudFRvcGljEhsKAXMYAiABKAsyEC50b2Iu",
+            "U2VydmVyRXZlbnQSGwoBcBgDIAEoCzIQLnRvYi5QbGF5ZXJFdmVudBIcCgFt",
+            "GAQgASgLMhEudG9iLk1vbnN0ZXJFdmVudCpDCgpFdmVudFRvcGljEhAKDFNF",
+            "UlZFUl9FVkVOVBAAEhAKDFBMQVlFUl9FVkVOVBABEhEKDU1PTlNURVJfRVZF",
+            "TlQQAio2Cg9TZXJ2ZXJFdmVudFR5cGUSEQoNU0VSVkVSX0NIQU5HRRAAEhAK",
+            "DFNFUlZFUl9ZSUVMRBABKsgBCg9QbGF5ZXJFdmVudFR5cGUSEAoMUExBWUVS",
+            "X0VOVEVSEAASDwoLUExBWUVSX0VYSVQQARIPCgtQTEFZRVJfTU9WRRACEg8K",
+            "C1BMQVlFUl9DQVNUEAMSEgoOUExBWUVSX0RBTUFHRUQQBBIOCgpQTEFZRVJf",
+            "RElFEAUSDwoLUExBWUVSX0pVTVAQBhIRCg1QTEFZRVJfQ1JPVUNIEAcSEwoP",
+            "UExBWUVSX1BPU0lUSU9OEAgSEwoPUExBWUVSX0VRVUlQUEVEEAkqHgoGR2Vu",
+            "ZGVyEggKBE1BTEUQABIKCgZGRU1BTEUQASqcAQoQTW9uc3RlckV2ZW50VHlw",
+            "ZRIRCg1NT05TVEVSX1NQQVdOEAASEAoMTU9OU1RFUl9NT1ZFEAESEgoOTU9O",
+            "U1RFUl9BVFRBQ0sQAhIPCgtNT05TVEVSX0RJRRADEhMKD01PTlNURVJfREVT",
+            "VFJPWRAEEhAKDE1PTlNURVJfTE9PVBAFEhcKE01PTlNURVJfTE9PVF9SRVNV",
+            "TFQQBjJRCgNUb0ISJQoJU3Vic2NyaWJlEgoudG9iLkVtcHR5GgoudG9iLkV2",
+            "ZW50MAESIwoHUHVibGlzaBIKLnRvYi5FdmVudBoKLnRvYi5FbXB0eSgBYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tob.EventTopic), typeof(global::Tob.ServerEventType), typeof(global::Tob.PlayerEventType), typeof(global::Tob.Gender), typeof(global::Tob.MonsterEventType), }, new pbr::GeneratedClrTypeInfo[] {
@@ -85,7 +85,7 @@ namespace Tob {
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.MonsterMoveEvent), global::Tob.MonsterMoveEvent.Parser, new[]{ "Position", "Target" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.MonsterLootEvent), global::Tob.MonsterLootEvent.Parser, new[]{ "PlayerId", "ItemId", "MonsterId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.MonsterEvent), global::Tob.MonsterEvent.Parser, new[]{ "Id", "Type", "Spawn", "Loot", "Move" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tob.Event), global::Tob.Event.Parser, new[]{ "Id", "Topic", "S", "P", "M" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tob.Event), global::Tob.Event.Parser, new[]{ "Topic", "S", "P", "M" }, null, null, null)
           }));
     }
     #endregion
@@ -95,7 +95,7 @@ namespace Tob {
   public enum EventTopic {
     [pbr::OriginalName("SERVER_EVENT")] ServerEvent = 0,
     [pbr::OriginalName("PLAYER_EVENT")] PlayerEvent = 1,
-    [pbr::OriginalName("MONSTER_EVENT")] MonsterEvent = 3,
+    [pbr::OriginalName("MONSTER_EVENT")] MonsterEvent = 2,
   }
 
   public enum ServerEventType {
@@ -2797,7 +2797,6 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Event(Event other) : this() {
-      id_ = other.id_;
       topic_ = other.topic_;
       S = other.s_ != null ? other.S.Clone() : null;
       P = other.p_ != null ? other.P.Clone() : null;
@@ -2810,22 +2809,8 @@ namespace Tob {
       return new Event(this);
     }
 
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private string id_ = "";
-    /// <summary>
-    /// Node id
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Id {
-      get { return id_; }
-      set {
-        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     /// <summary>Field number for the "topic" field.</summary>
-    public const int TopicFieldNumber = 2;
+    public const int TopicFieldNumber = 1;
     private global::Tob.EventTopic topic_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Tob.EventTopic Topic {
@@ -2836,7 +2821,7 @@ namespace Tob {
     }
 
     /// <summary>Field number for the "s" field.</summary>
-    public const int SFieldNumber = 3;
+    public const int SFieldNumber = 2;
     private global::Tob.ServerEvent s_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Tob.ServerEvent S {
@@ -2847,7 +2832,7 @@ namespace Tob {
     }
 
     /// <summary>Field number for the "p" field.</summary>
-    public const int PFieldNumber = 4;
+    public const int PFieldNumber = 3;
     private global::Tob.PlayerEvent p_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Tob.PlayerEvent P {
@@ -2858,7 +2843,7 @@ namespace Tob {
     }
 
     /// <summary>Field number for the "m" field.</summary>
-    public const int MFieldNumber = 5;
+    public const int MFieldNumber = 4;
     private global::Tob.MonsterEvent m_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Tob.MonsterEvent M {
@@ -2881,7 +2866,6 @@ namespace Tob {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Id != other.Id) return false;
       if (Topic != other.Topic) return false;
       if (!object.Equals(S, other.S)) return false;
       if (!object.Equals(P, other.P)) return false;
@@ -2892,7 +2876,6 @@ namespace Tob {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (Topic != 0) hash ^= Topic.GetHashCode();
       if (s_ != null) hash ^= S.GetHashCode();
       if (p_ != null) hash ^= P.GetHashCode();
@@ -2910,24 +2893,20 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Id.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Id);
-      }
       if (Topic != 0) {
-        output.WriteRawTag(16);
+        output.WriteRawTag(8);
         output.WriteEnum((int) Topic);
       }
       if (s_ != null) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(18);
         output.WriteMessage(S);
       }
       if (p_ != null) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(26);
         output.WriteMessage(P);
       }
       if (m_ != null) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(34);
         output.WriteMessage(M);
       }
       if (_unknownFields != null) {
@@ -2938,9 +2917,6 @@ namespace Tob {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Id.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
-      }
       if (Topic != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Topic);
       }
@@ -2963,9 +2939,6 @@ namespace Tob {
     public void MergeFrom(Event other) {
       if (other == null) {
         return;
-      }
-      if (other.Id.Length != 0) {
-        Id = other.Id;
       }
       if (other.Topic != 0) {
         Topic = other.Topic;
@@ -2999,29 +2972,25 @@ namespace Tob {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            Id = input.ReadString();
-            break;
-          }
-          case 16: {
+          case 8: {
             topic_ = (global::Tob.EventTopic) input.ReadEnum();
             break;
           }
-          case 26: {
+          case 18: {
             if (s_ == null) {
               s_ = new global::Tob.ServerEvent();
             }
             input.ReadMessage(s_);
             break;
           }
-          case 34: {
+          case 26: {
             if (p_ == null) {
               p_ = new global::Tob.PlayerEvent();
             }
             input.ReadMessage(p_);
             break;
           }
-          case 42: {
+          case 34: {
             if (m_ == null) {
               m_ = new global::Tob.MonsterEvent();
             }
