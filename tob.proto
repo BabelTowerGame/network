@@ -6,7 +6,6 @@ message Empty {}
 enum EventTopic {
     SERVER_EVENT = 0;
     PLAYER_EVENT = 1;
-    ITEM_EVENT = 2;
     MONSTER_EVENT = 3;
 }
 
@@ -15,54 +14,120 @@ enum ServerEventType {
     SERVER_YIELD = 1;
 }
 
+message ServerChangeEvent {
+    string previous = 1; // previous server id
+    string current = 2; // current server id
+}
+
 message ServerEvent {
     string id = 1;
     ServerEventType type = 2;
+    ServerChangeEvent change = 3;
 }
 
 enum PlayerEventType {
     PLAYER_ENTER = 0;
     PLAYER_EXIT = 1;
-    PLAYER_MOVE = 2;
+    PLAYER_MOVE = 2; // Indicate the player is moving
     PLAYER_CAST = 3;
-    PLAYER_DANMAGE = 4;
+    PLAYER_DANMAGED = 4;
     PLAYER_DIE = 5;
+    PLAYER_JUMP = 6;
+    PLAYER_CROUCH = 7;
+    PLAYER_POSITION = 8; // Update the player position
+    PLAYER_EQUIPPED = 9;
+}
+
+message Vector {
+    float x = 1;
+    float y = 2;
+    float z = 3;
+}
+
+message PlayerMoveEvent {
+    bool moving = 1;
+    Vector direction = 2;
+}
+
+message PlayerCastEvent {
+    string id = 1;
+    string targetId = 2;
+    Vector targetPosition = 3;
+}
+
+enum Gender {
+    MALE = 0;
+    FEMALE = 1;
+}
+
+message PlayerAppearance {
+    string name = 1;
+    Gender gender = 2;
+    int32 hairColor = 3;
+}
+
+message PlayerEquiped {
+    string weapon = 1;
+    string head = 2;
+    string chest = 3;
+    string legs = 4;
+    string shoes = 5;
+    string shield = 6;
 }
 
 message PlayerEvent {
     string id = 1;
     PlayerEventType type = 2;
-}
-
-enum ItemEventType {
-    DROP = 0;
-    PICKUP = 1;
-}
-
-message ItemEvent {
-    string id = 1;
-    ItemEventType type = 2;
+    PlayerMoveEvent move = 3;
+    Vector position = 4;
+    PlayerCastEvent cast = 5;
+    float danmaged = 6;
+    PlayerAppearance appearance = 7;
+    PlayerEquiped equiped = 8;
 }
 
 enum MonsterEventType {
     MONSTER_SPAWN = 0;
     MONSTER_MOVE = 1;
     MONSTER_ATTACK = 2;
-    MONSTER_DANMAGE = 3;
-    MONSTER_DIE = 4;
-    MONSTER_DESTROY = 5;
+    MONSTER_DIE = 3;
+    MONSTER_DESTROY = 4;
+    MONSTER_LOOT = 5;
+    MONSTER_LOOT_RESULT = 6;
+}
+
+message MonsterSpawnEvent {
+    string id = 1;
+    int32 demonType = 2;
+    int32 demonSkin = 3;
+    int32 weaponType = 4;
+    Vector position = 5;
+}
+
+message MonsterMoveEvent {
+    Vector position = 1;
+    Vector target = 2;
+}
+
+message MonsterLootEvent {
+    string playerId = 1;
+    string itemId = 2; // item type id
+    string monsterId = 3;
 }
 
 message MonsterEvent {
     string id = 1;
     MonsterEventType type = 2;
+    MonsterSpawnEvent spawn = 3;
+    MonsterLootEvent loot = 4;
+    MonsterMoveEvent move = 5;
 }
 
 message Event {
     EventTopic topic = 1;
-    PlayerEvent p = 2;
-    ItemEvent i = 3;
-    MonsterEvent m = 4;
+    ServerEvent s = 2;
+    PlayerEvent p = 3;
+    MonsterEvent m = 5;
 }
 
 message NodeInfo {
