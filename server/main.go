@@ -8,10 +8,11 @@ import (
 	"google.golang.org/grpc"
 	pb "github.com/BabelTowerGame/network/tob"
 	"google.golang.org/grpc/reflection"
+	"fmt"
 )
 
 const (
-	port = ":6882"
+	port = "0.0.0.0:16882"
 )
 
 // server is used to implement tob.ToBServer.
@@ -19,9 +20,16 @@ type server struct {
 	nodes map[string]pb.ToB_SubscribeServer
 }
 
+func newServer() *server {
+	return &server{
+		nodes: make(map[string]pb.ToB_SubscribeServer),
+	}
+}
+
 // SayHello implements helloworld.GreeterServer
 func (s *server) Subscribe(node *pb.NodeInfo, stream pb.ToB_SubscribeServer) error {
 	id := node.GetId()
+	fmt.Printf("Subscribe: node %v\n", id)
 	s.nodes[id] = stream
 	for {
 		// long-lived stream
@@ -51,25 +59,19 @@ func (s *server) broadcast(event *pb.Event) error {
 	return nil
 }
 
-func newToBServer() *server {
-	return &server{
-		nodes: make(map[string]pb.ToB_SubscribeServer),
-	}
-}
-
 func main() {
 	lis, err := net.Listen("tcp", port)
 	if err != nil {
-		log.Fatalf("failed to listen: %v", err)
+		log.Fatalf("failed to listen: %v\n", err)
 	}
 
 	s := grpc.NewServer()
-	toBServer := newToBServer()
-	pb.RegisterToBServer(s, toBServer)
+	server := newServer()
+	pb.RegisterToBServer(s, server)
 
 	// Register reflection service on gRPC server.
 	reflection.Register(s)
 	if err := s.Serve(lis); err != nil {
-		log.Fatalf("failed to serve: %v", err)
+		log.Fatalf("failed to serve: %v\n", err)
 	}
 }
