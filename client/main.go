@@ -73,7 +73,7 @@ func main() {
 	defer wg.Wait()
 
 	// Setup a connection with the server
-	conn, err := grpc.Dial("127.0.0.1:16882", grpc.WithInsecure())
+	conn, err := grpc.Dial("51.15.190.233:16882", grpc.WithInsecure())
 	if err != nil {
 		log.Fatalf("did not connect: %v\n", err)
 	}
@@ -84,21 +84,21 @@ func main() {
 	go publishWroker(client, wg)
 	wg.Add(2)
 
-	ticker := time.NewTicker(time.Second)
-	defer ticker.Stop()
+	//ticker := time.NewTicker(time.Second)
+	//defer ticker.Stop()
 
-	for {
-		select {
-		case <-ticker.C:
-			eventChan <- &pb.Event{
-				Topic: pb.EventTopic_PLAYER_EVENT,
-				P: &pb.PlayerEvent{
-					Type: pb.PlayerEventType_PLAYER_ENTER,
-					Appearance: &pb.PlayerAppearance{
-						Name: "Player 1",
-					},
-				},
-			}
-		}
-	}
+	//for {
+	//	select {
+	//	case <-ticker.C:
+	//		eventChan <- &pb.Event{
+	//			Topic: pb.EventTopic_PLAYER_EVENT,
+	//			P: &pb.PlayerEvent{
+	//				Type: pb.PlayerEventType_PLAYER_ENTER,
+	//				Appearance: &pb.PlayerAppearance{
+	//					Name: "Player 1",
+	//				},
+	//			},
+	//		}
+	//	}
+	//}
 }
