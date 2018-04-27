@@ -86,6 +86,8 @@ func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 
 	// Client disconnected, so we un-register the node
 	delete(s.nodes, id)
+	fmt.Printf("Un-Subscribe: node %v\n", id)
+
 	if id == s.serverNode {
 		// The server is down, so we need to assign a new one
 		if len(s.nodes) > 0 {
@@ -110,9 +112,6 @@ func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 			}, true)
 		}
 	}
-
-	fmt.Printf("Un-Subscribe: node %v\n", id)
-	delete(s.nodes, id)
 	return nil
 }
 
