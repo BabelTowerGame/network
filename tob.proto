@@ -45,7 +45,7 @@ message Vector {
 }
 
 message PlayerMoveEvent {
-    bool moving = 1;
+    Vector target = 1;
     Vector direction = 2;
 }
 

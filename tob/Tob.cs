@@ -28,53 +28,53 @@ namespace Tob {
             "dBIQCghwcmV2aW91cxgBIAEoCRIPCgdjdXJyZW50GAIgASgJIj0KC1NlcnZl",
             "ckV2ZW50EgoKAmlkGAEgASgJEiIKBHR5cGUYAiABKA4yFC50b2IuU2VydmVy",
             "RXZlbnRUeXBlIikKBlZlY3RvchIJCgF4GAEgASgCEgkKAXkYAiABKAISCQoB",
-            "ehgDIAEoAiJBCg9QbGF5ZXJNb3ZlRXZlbnQSDgoGbW92aW5nGAEgASgIEh4K",
-            "CWRpcmVjdGlvbhgCIAEoCzILLnRvYi5WZWN0b3IiVAoPUGxheWVyQ2FzdEV2",
-            "ZW50EgoKAmlkGAEgASgJEhAKCHRhcmdldElkGAIgASgJEiMKDnRhcmdldFBv",
-            "c2l0aW9uGAMgASgLMgsudG9iLlZlY3RvciJQChBQbGF5ZXJBcHBlYXJhbmNl",
-            "EgwKBG5hbWUYASABKAkSGwoGZ2VuZGVyGAIgASgOMgsudG9iLkdlbmRlchIR",
-            "CgloYWlyQ29sb3IYAyABKAUiaQoNUGxheWVyRXF1aXBlZBIOCgZ3ZWFwb24Y",
-            "ASABKAkSDAoEaGVhZBgCIAEoCRINCgVjaGVzdBgDIAEoCRIMCgRsZWdzGAQg",
-            "ASgJEg0KBXNob2VzGAUgASgJEg4KBnNoaWVsZBgGIAEoCSJ9ChRQbGF5ZXJB",
-            "bmltYXRpb25FdmVudBIRCglzdGF0ZUhhc2gYASADKAUSFgoObm9ybWFsaXpl",
-            "ZFRpbWUYAiADKAISEQoJaW50UGFyYW1zGAMgAygFEhMKC2Zsb2F0UGFyYW1z",
-            "GAQgAygCEhIKCmJvb2xQYXJhbXMYBSADKAgisgIKC1BsYXllckV2ZW50EgoK",
-            "AmlkGAEgASgJEiIKBHR5cGUYAiABKA4yFC50b2IuUGxheWVyRXZlbnRUeXBl",
-            "EiIKBG1vdmUYAyABKAsyFC50b2IuUGxheWVyTW92ZUV2ZW50Eh0KCHBvc2l0",
-            "aW9uGAQgASgLMgsudG9iLlZlY3RvchIiCgRjYXN0GAUgASgLMhQudG9iLlBs",
-            "YXllckNhc3RFdmVudBIOCgZkYW1hZ2UYBiABKAISKQoKYXBwZWFyYW5jZRgH",
-            "IAEoCzIVLnRvYi5QbGF5ZXJBcHBlYXJhbmNlEiMKB2VxdWlwZWQYCCABKAsy",
-            "Ei50b2IuUGxheWVyRXF1aXBlZBIsCglhbmltYXRpb24YCSABKAsyGS50b2Iu",
-            "UGxheWVyQW5pbWF0aW9uRXZlbnQieAoRTW9uc3RlclNwYXduRXZlbnQSCgoC",
-            "aWQYASABKAkSEQoJZGVtb25UeXBlGAIgASgFEhEKCWRlbW9uU2tpbhgDIAEo",
-            "BRISCgp3ZWFwb25UeXBlGAQgASgFEh0KCHBvc2l0aW9uGAUgASgLMgsudG9i",
-            "LlZlY3RvciJOChBNb25zdGVyTW92ZUV2ZW50Eh0KCHBvc2l0aW9uGAEgASgL",
-            "MgsudG9iLlZlY3RvchIbCgZ0YXJnZXQYAiABKAsyCy50b2IuVmVjdG9yIkcK",
-            "EE1vbnN0ZXJMb290RXZlbnQSEAoIcGxheWVySWQYASABKAkSDgoGaXRlbUlk",
-            "GAIgASgJEhEKCW1vbnN0ZXJJZBgDIAEoCSIgCg9Nb25zdGVyRGllRXZlbnQS",
-            "DQoFaXRlbXMYASADKAUi0wEKDE1vbnN0ZXJFdmVudBIKCgJpZBgBIAEoCRIj",
-            "CgR0eXBlGAIgASgOMhUudG9iLk1vbnN0ZXJFdmVudFR5cGUSJQoFc3Bhd24Y",
-            "AyABKAsyFi50b2IuTW9uc3RlclNwYXduRXZlbnQSIwoEbG9vdBgEIAEoCzIV",
-            "LnRvYi5Nb25zdGVyTG9vdEV2ZW50EiMKBG1vdmUYBSABKAsyFS50b2IuTW9u",
-            "c3Rlck1vdmVFdmVudBIhCgNkaWUYBiABKAsyFC50b2IuTW9uc3RlckRpZUV2",
-            "ZW50In8KBUV2ZW50Eh4KBXRvcGljGAEgASgOMg8udG9iLkV2ZW50VG9waWMS",
-            "GwoBcxgCIAEoCzIQLnRvYi5TZXJ2ZXJFdmVudBIbCgFwGAMgASgLMhAudG9i",
-            "LlBsYXllckV2ZW50EhwKAW0YBCABKAsyES50b2IuTW9uc3RlckV2ZW50KkMK",
-            "CkV2ZW50VG9waWMSEAoMU0VSVkVSX0VWRU5UEAASEAoMUExBWUVSX0VWRU5U",
-            "EAESEQoNTU9OU1RFUl9FVkVOVBACKjYKD1NlcnZlckV2ZW50VHlwZRIRCg1T",
-            "RVJWRVJfQ0hBTkdFEAASEAoMU0VSVkVSX1lJRUxEEAEq3gEKD1BsYXllckV2",
-            "ZW50VHlwZRIQCgxQTEFZRVJfRU5URVIQABIPCgtQTEFZRVJfRVhJVBABEg8K",
-            "C1BMQVlFUl9NT1ZFEAISDwoLUExBWUVSX0NBU1QQAxISCg5QTEFZRVJfREFN",
-            "QUdFRBAEEg4KClBMQVlFUl9ESUUQBRIPCgtQTEFZRVJfSlVNUBAGEhEKDVBM",
-            "QVlFUl9DUk9VQ0gQBxITCg9QTEFZRVJfUE9TSVRJT04QCBITCg9QTEFZRVJf",
-            "RVFVSVBQRUQQCRIUChBQTEFZRVJfQU5JTUFUSU9OEAoqHgoGR2VuZGVyEggK",
-            "BE1BTEUQABIKCgZGRU1BTEUQASquAQoQTW9uc3RlckV2ZW50VHlwZRIRCg1N",
-            "T05TVEVSX1NQQVdOEAASEAoMTU9OU1RFUl9NT1ZFEAESEgoOTU9OU1RFUl9B",
-            "VFRBQ0sQAhIPCgtNT05TVEVSX0RJRRADEhMKD01PTlNURVJfREVTVFJPWRAE",
-            "EhAKDE1PTlNURVJfTE9PVBAFEhcKE01PTlNURVJfTE9PVF9SRVNVTFQQBhIQ",
-            "CgxNT05TVEVSX0JBQ0sQBzJRCgNUb0ISJQoJU3Vic2NyaWJlEgoudG9iLkVt",
-            "cHR5GgoudG9iLkV2ZW50MAESIwoHUHVibGlzaBIKLnRvYi5FdmVudBoKLnRv",
-            "Yi5FbXB0eSgBYgZwcm90bzM="));
+            "ehgDIAEoAiJOCg9QbGF5ZXJNb3ZlRXZlbnQSGwoGdGFyZ2V0GAEgASgLMgsu",
+            "dG9iLlZlY3RvchIeCglkaXJlY3Rpb24YAiABKAsyCy50b2IuVmVjdG9yIlQK",
+            "D1BsYXllckNhc3RFdmVudBIKCgJpZBgBIAEoCRIQCgh0YXJnZXRJZBgCIAEo",
+            "CRIjCg50YXJnZXRQb3NpdGlvbhgDIAEoCzILLnRvYi5WZWN0b3IiUAoQUGxh",
+            "eWVyQXBwZWFyYW5jZRIMCgRuYW1lGAEgASgJEhsKBmdlbmRlchgCIAEoDjIL",
+            "LnRvYi5HZW5kZXISEQoJaGFpckNvbG9yGAMgASgFImkKDVBsYXllckVxdWlw",
+            "ZWQSDgoGd2VhcG9uGAEgASgJEgwKBGhlYWQYAiABKAkSDQoFY2hlc3QYAyAB",
+            "KAkSDAoEbGVncxgEIAEoCRINCgVzaG9lcxgFIAEoCRIOCgZzaGllbGQYBiAB",
+            "KAkifQoUUGxheWVyQW5pbWF0aW9uRXZlbnQSEQoJc3RhdGVIYXNoGAEgAygF",
+            "EhYKDm5vcm1hbGl6ZWRUaW1lGAIgAygCEhEKCWludFBhcmFtcxgDIAMoBRIT",
+            "CgtmbG9hdFBhcmFtcxgEIAMoAhISCgpib29sUGFyYW1zGAUgAygIIrICCgtQ",
+            "bGF5ZXJFdmVudBIKCgJpZBgBIAEoCRIiCgR0eXBlGAIgASgOMhQudG9iLlBs",
+            "YXllckV2ZW50VHlwZRIiCgRtb3ZlGAMgASgLMhQudG9iLlBsYXllck1vdmVF",
+            "dmVudBIdCghwb3NpdGlvbhgEIAEoCzILLnRvYi5WZWN0b3ISIgoEY2FzdBgF",
+            "IAEoCzIULnRvYi5QbGF5ZXJDYXN0RXZlbnQSDgoGZGFtYWdlGAYgASgCEikK",
+            "CmFwcGVhcmFuY2UYByABKAsyFS50b2IuUGxheWVyQXBwZWFyYW5jZRIjCgdl",
+            "cXVpcGVkGAggASgLMhIudG9iLlBsYXllckVxdWlwZWQSLAoJYW5pbWF0aW9u",
+            "GAkgASgLMhkudG9iLlBsYXllckFuaW1hdGlvbkV2ZW50IngKEU1vbnN0ZXJT",
+            "cGF3bkV2ZW50EgoKAmlkGAEgASgJEhEKCWRlbW9uVHlwZRgCIAEoBRIRCglk",
+            "ZW1vblNraW4YAyABKAUSEgoKd2VhcG9uVHlwZRgEIAEoBRIdCghwb3NpdGlv",
+            "bhgFIAEoCzILLnRvYi5WZWN0b3IiTgoQTW9uc3Rlck1vdmVFdmVudBIdCghw",
+            "b3NpdGlvbhgBIAEoCzILLnRvYi5WZWN0b3ISGwoGdGFyZ2V0GAIgASgLMgsu",
+            "dG9iLlZlY3RvciJHChBNb25zdGVyTG9vdEV2ZW50EhAKCHBsYXllcklkGAEg",
+            "ASgJEg4KBml0ZW1JZBgCIAEoCRIRCgltb25zdGVySWQYAyABKAkiIAoPTW9u",
+            "c3RlckRpZUV2ZW50Eg0KBWl0ZW1zGAEgAygFItMBCgxNb25zdGVyRXZlbnQS",
+            "CgoCaWQYASABKAkSIwoEdHlwZRgCIAEoDjIVLnRvYi5Nb25zdGVyRXZlbnRU",
+            "eXBlEiUKBXNwYXduGAMgASgLMhYudG9iLk1vbnN0ZXJTcGF3bkV2ZW50EiMK",
+            "BGxvb3QYBCABKAsyFS50b2IuTW9uc3Rlckxvb3RFdmVudBIjCgRtb3ZlGAUg",
+            "ASgLMhUudG9iLk1vbnN0ZXJNb3ZlRXZlbnQSIQoDZGllGAYgASgLMhQudG9i",
+            "Lk1vbnN0ZXJEaWVFdmVudCJ/CgVFdmVudBIeCgV0b3BpYxgBIAEoDjIPLnRv",
+            "Yi5FdmVudFRvcGljEhsKAXMYAiABKAsyEC50b2IuU2VydmVyRXZlbnQSGwoB",
+            "cBgDIAEoCzIQLnRvYi5QbGF5ZXJFdmVudBIcCgFtGAQgASgLMhEudG9iLk1v",
+            "bnN0ZXJFdmVudCpDCgpFdmVudFRvcGljEhAKDFNFUlZFUl9FVkVOVBAAEhAK",
+            "DFBMQVlFUl9FVkVOVBABEhEKDU1PTlNURVJfRVZFTlQQAio2Cg9TZXJ2ZXJF",
+            "dmVudFR5cGUSEQoNU0VSVkVSX0NIQU5HRRAAEhAKDFNFUlZFUl9ZSUVMRBAB",
+            "Kt4BCg9QbGF5ZXJFdmVudFR5cGUSEAoMUExBWUVSX0VOVEVSEAASDwoLUExB",
+            "WUVSX0VYSVQQARIPCgtQTEFZRVJfTU9WRRACEg8KC1BMQVlFUl9DQVNUEAMS",
+            "EgoOUExBWUVSX0RBTUFHRUQQBBIOCgpQTEFZRVJfRElFEAUSDwoLUExBWUVS",
+            "X0pVTVAQBhIRCg1QTEFZRVJfQ1JPVUNIEAcSEwoPUExBWUVSX1BPU0lUSU9O",
+            "EAgSEwoPUExBWUVSX0VRVUlQUEVEEAkSFAoQUExBWUVSX0FOSU1BVElPThAK",
+            "Kh4KBkdlbmRlchIICgRNQUxFEAASCgoGRkVNQUxFEAEqrgEKEE1vbnN0ZXJF",
+            "dmVudFR5cGUSEQoNTU9OU1RFUl9TUEFXThAAEhAKDE1PTlNURVJfTU9WRRAB",
+            "EhIKDk1PTlNURVJfQVRUQUNLEAISDwoLTU9OU1RFUl9ESUUQAxITCg9NT05T",
+            "VEVSX0RFU1RST1kQBBIQCgxNT05TVEVSX0xPT1QQBRIXChNNT05TVEVSX0xP",
+            "T1RfUkVTVUxUEAYSEAoMTU9OU1RFUl9CQUNLEAcyUQoDVG9CEiUKCVN1YnNj",
+            "cmliZRIKLnRvYi5FbXB0eRoKLnRvYi5FdmVudDABEiMKB1B1Ymxpc2gSCi50",
+            "b2IuRXZlbnQaCi50b2IuRW1wdHkoAWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tob.EventTopic), typeof(global::Tob.ServerEventType), typeof(global::Tob.PlayerEventType), typeof(global::Tob.Gender), typeof(global::Tob.MonsterEventType), }, new pbr::GeneratedClrTypeInfo[] {
@@ -82,7 +82,7 @@ namespace Tob {
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.ServerChangeEvent), global::Tob.ServerChangeEvent.Parser, new[]{ "Previous", "Current" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.ServerEvent), global::Tob.ServerEvent.Parser, new[]{ "Id", "Type" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.Vector), global::Tob.Vector.Parser, new[]{ "X", "Y", "Z" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerMoveEvent), global::Tob.PlayerMoveEvent.Parser, new[]{ "Moving", "Direction" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerMoveEvent), global::Tob.PlayerMoveEvent.Parser, new[]{ "Target", "Direction" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerCastEvent), global::Tob.PlayerCastEvent.Parser, new[]{ "Id", "TargetId", "TargetPosition" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerAppearance), global::Tob.PlayerAppearance.Parser, new[]{ "Name", "Gender", "HairColor" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerEquiped), global::Tob.PlayerEquiped.Parser, new[]{ "Weapon", "Head", "Chest", "Legs", "Shoes", "Shield" }, null, null, null),
@@ -784,7 +784,7 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public PlayerMoveEvent(PlayerMoveEvent other) : this() {
-      moving_ = other.moving_;
+      Target = other.target_ != null ? other.Target.Clone() : null;
       Direction = other.direction_ != null ? other.Direction.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -794,14 +794,14 @@ namespace Tob {
       return new PlayerMoveEvent(this);
     }
 
-    /// <summary>Field number for the "moving" field.</summary>
-    public const int MovingFieldNumber = 1;
-    private bool moving_;
+    /// <summary>Field number for the "target" field.</summary>
+    public const int TargetFieldNumber = 1;
+    private global::Tob.Vector target_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Moving {
-      get { return moving_; }
+    public global::Tob.Vector Target {
+      get { return target_; }
       set {
-        moving_ = value;
+        target_ = value;
       }
     }
 
@@ -829,7 +829,7 @@ namespace Tob {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Moving != other.Moving) return false;
+      if (!object.Equals(Target, other.Target)) return false;
       if (!object.Equals(Direction, other.Direction)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -837,7 +837,7 @@ namespace Tob {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Moving != false) hash ^= Moving.GetHashCode();
+      if (target_ != null) hash ^= Target.GetHashCode();
       if (direction_ != null) hash ^= Direction.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -852,9 +852,9 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Moving != false) {
-        output.WriteRawTag(8);
-        output.WriteBool(Moving);
+      if (target_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Target);
       }
       if (direction_ != null) {
         output.WriteRawTag(18);
@@ -868,8 +868,8 @@ namespace Tob {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Moving != false) {
-        size += 1 + 1;
+      if (target_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Target);
       }
       if (direction_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Direction);
@@ -885,8 +885,11 @@ namespace Tob {
       if (other == null) {
         return;
       }
-      if (other.Moving != false) {
-        Moving = other.Moving;
+      if (other.target_ != null) {
+        if (target_ == null) {
+          target_ = new global::Tob.Vector();
+        }
+        Target.MergeFrom(other.Target);
       }
       if (other.direction_ != null) {
         if (direction_ == null) {
@@ -905,8 +908,11 @@ namespace Tob {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 8: {
-            Moving = input.ReadBool();
+          case 10: {
+            if (target_ == null) {
+              target_ = new global::Tob.Vector();
+            }
+            input.ReadMessage(target_);
             break;
           }
           case 18: {
