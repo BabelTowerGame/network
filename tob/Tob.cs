@@ -51,28 +51,29 @@ namespace Tob {
             "LlZlY3RvciJOChBNb25zdGVyTW92ZUV2ZW50Eh0KCHBvc2l0aW9uGAEgASgL",
             "MgsudG9iLlZlY3RvchIbCgZ0YXJnZXQYAiABKAsyCy50b2IuVmVjdG9yIkcK",
             "EE1vbnN0ZXJMb290RXZlbnQSEAoIcGxheWVySWQYASABKAkSDgoGaXRlbUlk",
-            "GAIgASgJEhEKCW1vbnN0ZXJJZBgDIAEoCSKwAQoMTW9uc3RlckV2ZW50EgoK",
-            "AmlkGAEgASgJEiMKBHR5cGUYAiABKA4yFS50b2IuTW9uc3RlckV2ZW50VHlw",
-            "ZRIlCgVzcGF3bhgDIAEoCzIWLnRvYi5Nb25zdGVyU3Bhd25FdmVudBIjCgRs",
-            "b290GAQgASgLMhUudG9iLk1vbnN0ZXJMb290RXZlbnQSIwoEbW92ZRgFIAEo",
-            "CzIVLnRvYi5Nb25zdGVyTW92ZUV2ZW50In8KBUV2ZW50Eh4KBXRvcGljGAEg",
-            "ASgOMg8udG9iLkV2ZW50VG9waWMSGwoBcxgCIAEoCzIQLnRvYi5TZXJ2ZXJF",
-            "dmVudBIbCgFwGAMgASgLMhAudG9iLlBsYXllckV2ZW50EhwKAW0YBCABKAsy",
-            "ES50b2IuTW9uc3RlckV2ZW50KkMKCkV2ZW50VG9waWMSEAoMU0VSVkVSX0VW",
-            "RU5UEAASEAoMUExBWUVSX0VWRU5UEAESEQoNTU9OU1RFUl9FVkVOVBACKjYK",
-            "D1NlcnZlckV2ZW50VHlwZRIRCg1TRVJWRVJfQ0hBTkdFEAASEAoMU0VSVkVS",
-            "X1lJRUxEEAEq3gEKD1BsYXllckV2ZW50VHlwZRIQCgxQTEFZRVJfRU5URVIQ",
-            "ABIPCgtQTEFZRVJfRVhJVBABEg8KC1BMQVlFUl9NT1ZFEAISDwoLUExBWUVS",
-            "X0NBU1QQAxISCg5QTEFZRVJfREFNQUdFRBAEEg4KClBMQVlFUl9ESUUQBRIP",
-            "CgtQTEFZRVJfSlVNUBAGEhEKDVBMQVlFUl9DUk9VQ0gQBxITCg9QTEFZRVJf",
-            "UE9TSVRJT04QCBITCg9QTEFZRVJfRVFVSVBQRUQQCRIUChBQTEFZRVJfQU5J",
-            "TUFUSU9OEAoqHgoGR2VuZGVyEggKBE1BTEUQABIKCgZGRU1BTEUQASqcAQoQ",
-            "TW9uc3RlckV2ZW50VHlwZRIRCg1NT05TVEVSX1NQQVdOEAASEAoMTU9OU1RF",
-            "Ul9NT1ZFEAESEgoOTU9OU1RFUl9BVFRBQ0sQAhIPCgtNT05TVEVSX0RJRRAD",
-            "EhMKD01PTlNURVJfREVTVFJPWRAEEhAKDE1PTlNURVJfTE9PVBAFEhcKE01P",
-            "TlNURVJfTE9PVF9SRVNVTFQQBjJRCgNUb0ISJQoJU3Vic2NyaWJlEgoudG9i",
-            "LkVtcHR5GgoudG9iLkV2ZW50MAESIwoHUHVibGlzaBIKLnRvYi5FdmVudBoK",
-            "LnRvYi5FbXB0eSgBYgZwcm90bzM="));
+            "GAIgASgJEhEKCW1vbnN0ZXJJZBgDIAEoCSIgCg9Nb25zdGVyRGllRXZlbnQS",
+            "DQoFaXRlbXMYASADKAUi0wEKDE1vbnN0ZXJFdmVudBIKCgJpZBgBIAEoCRIj",
+            "CgR0eXBlGAIgASgOMhUudG9iLk1vbnN0ZXJFdmVudFR5cGUSJQoFc3Bhd24Y",
+            "AyABKAsyFi50b2IuTW9uc3RlclNwYXduRXZlbnQSIwoEbG9vdBgEIAEoCzIV",
+            "LnRvYi5Nb25zdGVyTG9vdEV2ZW50EiMKBG1vdmUYBSABKAsyFS50b2IuTW9u",
+            "c3Rlck1vdmVFdmVudBIhCgNkaWUYBiABKAsyFC50b2IuTW9uc3RlckRpZUV2",
+            "ZW50In8KBUV2ZW50Eh4KBXRvcGljGAEgASgOMg8udG9iLkV2ZW50VG9waWMS",
+            "GwoBcxgCIAEoCzIQLnRvYi5TZXJ2ZXJFdmVudBIbCgFwGAMgASgLMhAudG9i",
+            "LlBsYXllckV2ZW50EhwKAW0YBCABKAsyES50b2IuTW9uc3RlckV2ZW50KkMK",
+            "CkV2ZW50VG9waWMSEAoMU0VSVkVSX0VWRU5UEAASEAoMUExBWUVSX0VWRU5U",
+            "EAESEQoNTU9OU1RFUl9FVkVOVBACKjYKD1NlcnZlckV2ZW50VHlwZRIRCg1T",
+            "RVJWRVJfQ0hBTkdFEAASEAoMU0VSVkVSX1lJRUxEEAEq3gEKD1BsYXllckV2",
+            "ZW50VHlwZRIQCgxQTEFZRVJfRU5URVIQABIPCgtQTEFZRVJfRVhJVBABEg8K",
+            "C1BMQVlFUl9NT1ZFEAISDwoLUExBWUVSX0NBU1QQAxISCg5QTEFZRVJfREFN",
+            "QUdFRBAEEg4KClBMQVlFUl9ESUUQBRIPCgtQTEFZRVJfSlVNUBAGEhEKDVBM",
+            "QVlFUl9DUk9VQ0gQBxITCg9QTEFZRVJfUE9TSVRJT04QCBITCg9QTEFZRVJf",
+            "RVFVSVBQRUQQCRIUChBQTEFZRVJfQU5JTUFUSU9OEAoqHgoGR2VuZGVyEggK",
+            "BE1BTEUQABIKCgZGRU1BTEUQASqcAQoQTW9uc3RlckV2ZW50VHlwZRIRCg1N",
+            "T05TVEVSX1NQQVdOEAASEAoMTU9OU1RFUl9NT1ZFEAESEgoOTU9OU1RFUl9B",
+            "VFRBQ0sQAhIPCgtNT05TVEVSX0RJRRADEhMKD01PTlNURVJfREVTVFJPWRAE",
+            "EhAKDE1PTlNURVJfTE9PVBAFEhcKE01PTlNURVJfTE9PVF9SRVNVTFQQBjJR",
+            "CgNUb0ISJQoJU3Vic2NyaWJlEgoudG9iLkVtcHR5GgoudG9iLkV2ZW50MAES",
+            "IwoHUHVibGlzaBIKLnRvYi5FdmVudBoKLnRvYi5FbXB0eSgBYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tob.EventTopic), typeof(global::Tob.ServerEventType), typeof(global::Tob.PlayerEventType), typeof(global::Tob.Gender), typeof(global::Tob.MonsterEventType), }, new pbr::GeneratedClrTypeInfo[] {
@@ -89,7 +90,8 @@ namespace Tob {
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.MonsterSpawnEvent), global::Tob.MonsterSpawnEvent.Parser, new[]{ "Id", "DemonType", "DemonSkin", "WeaponType", "Position" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.MonsterMoveEvent), global::Tob.MonsterMoveEvent.Parser, new[]{ "Position", "Target" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.MonsterLootEvent), global::Tob.MonsterLootEvent.Parser, new[]{ "PlayerId", "ItemId", "MonsterId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tob.MonsterEvent), global::Tob.MonsterEvent.Parser, new[]{ "Id", "Type", "Spawn", "Loot", "Move" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tob.MonsterDieEvent), global::Tob.MonsterDieEvent.Parser, new[]{ "Items" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tob.MonsterEvent), global::Tob.MonsterEvent.Parser, new[]{ "Id", "Type", "Spawn", "Loot", "Move", "Die" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.Event), global::Tob.Event.Parser, new[]{ "Topic", "S", "P", "M" }, null, null, null)
           }));
     }
@@ -2759,6 +2761,128 @@ namespace Tob {
 
   }
 
+  public sealed partial class MonsterDieEvent : pb::IMessage<MonsterDieEvent> {
+    private static readonly pb::MessageParser<MonsterDieEvent> _parser = new pb::MessageParser<MonsterDieEvent>(() => new MonsterDieEvent());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<MonsterDieEvent> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Tob.TobReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MonsterDieEvent() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MonsterDieEvent(MonsterDieEvent other) : this() {
+      items_ = other.items_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MonsterDieEvent Clone() {
+      return new MonsterDieEvent(this);
+    }
+
+    /// <summary>Field number for the "items" field.</summary>
+    public const int ItemsFieldNumber = 1;
+    private static readonly pb::FieldCodec<int> _repeated_items_codec
+        = pb::FieldCodec.ForInt32(10);
+    private readonly pbc::RepeatedField<int> items_ = new pbc::RepeatedField<int>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<int> Items {
+      get { return items_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as MonsterDieEvent);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(MonsterDieEvent other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!items_.Equals(other.items_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= items_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      items_.WriteTo(output, _repeated_items_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += items_.CalculateSize(_repeated_items_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(MonsterDieEvent other) {
+      if (other == null) {
+        return;
+      }
+      items_.Add(other.items_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10:
+          case 8: {
+            items_.AddEntriesFrom(input, _repeated_items_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class MonsterEvent : pb::IMessage<MonsterEvent> {
     private static readonly pb::MessageParser<MonsterEvent> _parser = new pb::MessageParser<MonsterEvent>(() => new MonsterEvent());
     private pb::UnknownFieldSet _unknownFields;
@@ -2767,7 +2891,7 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tob.TobReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Tob.TobReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2789,6 +2913,7 @@ namespace Tob {
       Spawn = other.spawn_ != null ? other.Spawn.Clone() : null;
       Loot = other.loot_ != null ? other.Loot.Clone() : null;
       Move = other.move_ != null ? other.Move.Clone() : null;
+      Die = other.die_ != null ? other.Die.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2852,6 +2977,17 @@ namespace Tob {
       }
     }
 
+    /// <summary>Field number for the "die" field.</summary>
+    public const int DieFieldNumber = 6;
+    private global::Tob.MonsterDieEvent die_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Tob.MonsterDieEvent Die {
+      get { return die_; }
+      set {
+        die_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as MonsterEvent);
@@ -2870,6 +3006,7 @@ namespace Tob {
       if (!object.Equals(Spawn, other.Spawn)) return false;
       if (!object.Equals(Loot, other.Loot)) return false;
       if (!object.Equals(Move, other.Move)) return false;
+      if (!object.Equals(Die, other.Die)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2881,6 +3018,7 @@ namespace Tob {
       if (spawn_ != null) hash ^= Spawn.GetHashCode();
       if (loot_ != null) hash ^= Loot.GetHashCode();
       if (move_ != null) hash ^= Move.GetHashCode();
+      if (die_ != null) hash ^= Die.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2914,6 +3052,10 @@ namespace Tob {
         output.WriteRawTag(42);
         output.WriteMessage(Move);
       }
+      if (die_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(Die);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2936,6 +3078,9 @@ namespace Tob {
       }
       if (move_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Move);
+      }
+      if (die_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Die);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2971,6 +3116,12 @@ namespace Tob {
           move_ = new global::Tob.MonsterMoveEvent();
         }
         Move.MergeFrom(other.Move);
+      }
+      if (other.die_ != null) {
+        if (die_ == null) {
+          die_ = new global::Tob.MonsterDieEvent();
+        }
+        Die.MergeFrom(other.Die);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3012,6 +3163,13 @@ namespace Tob {
             input.ReadMessage(move_);
             break;
           }
+          case 50: {
+            if (die_ == null) {
+              die_ = new global::Tob.MonsterDieEvent();
+            }
+            input.ReadMessage(die_);
+            break;
+          }
         }
       }
     }
@@ -3026,7 +3184,7 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tob.TobReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Tob.TobReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

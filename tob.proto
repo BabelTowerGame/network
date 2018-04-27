@@ -124,12 +124,17 @@ message MonsterLootEvent {
     string monsterId = 3;
 }
 
+message MonsterDieEvent {
+    repeated int32 items = 1;
+}
+
 message MonsterEvent {
     string id = 1;
     MonsterEventType type = 2;
     MonsterSpawnEvent spawn = 3;
     MonsterLootEvent loot = 4;
     MonsterMoveEvent move = 5;
+    MonsterDieEvent die = 6;
 }
 
 message Event {
