@@ -49,10 +49,12 @@ func newServer() *server {
 func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 	md, ok := metadata.FromIncomingContext(stream.Context())
 	if !ok {
+		fmt.Printf("\n\nERROR: Subscribe failed to get metadata\n\n")
 		return errors.New("fail to get metadata")
 	}
 	ids := md.Get("id")
 	if len(ids) < 1 || ids[0] == "" {
+		fmt.Printf("\n\nERROR: Subscribe empty node ID\n\n")
 		return errors.New("empty node ID")
 	}
 	id := ids[0]
@@ -141,10 +143,12 @@ func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 func (s *server) Publish(stream pb.ToB_PublishServer) error {
 	md, ok := metadata.FromIncomingContext(stream.Context())
 	if !ok {
+		fmt.Printf("\n\nERROR: Publish failed to get metadata\n\n")
 		return errors.New("fail to get metadata")
 	}
 	ids := md.Get("id")
 	if len(ids) < 1 || ids[0] == "" {
+		fmt.Printf("\n\nERROR: Publish empty node ID\n\n")
 		return errors.New("empty node ID")
 	}
 	id := ids[0]
@@ -177,8 +181,10 @@ func (s *server) Publish(stream pb.ToB_PublishServer) error {
 				s.broadcast(event, false)
 				fmt.Printf("Broadcast to all nodes\n")
 			} else {
-				s.nodes[s.serverNode].stream.Send(event)
-				fmt.Printf("Forward to server %v\n", s.serverNode)
+				if s.nodes[s.serverNode] != nil {
+					s.nodes[s.serverNode].stream.Send(event)
+					fmt.Printf("Forward to server %v\n", s.serverNode)
+				}
 			}
 		}
 	}
