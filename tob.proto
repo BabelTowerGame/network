@@ -44,9 +44,16 @@ message Vector {
     float z = 3;
 }
 
+message Quaternion {
+    float a = 1;
+    float b = 2;
+    float c = 3;
+    float d = 4;
+}
+
 message PlayerMoveEvent {
     Vector target = 1;
-    Vector direction = 2;
+    Quaternion direction = 2;
 }
 
 message PlayerCastEvent {
