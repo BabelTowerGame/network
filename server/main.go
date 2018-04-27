@@ -31,10 +31,19 @@ type server struct {
 	serverNodeMutex sync.Mutex
 }
 
+func PrintP(p *pb.PlayerEvent) {
+	if p == nil {
+		return
+	}
+	fmt.Printf("Player ID: %v\n", p.GetId())
+	fmt.Printf("Player Event Type: %v\n", p.GetType())
+	fmt.Printf("Player Event Value: %v\n", p)
+}
+
 func Print(event *pb.Event) {
 	fmt.Printf("Topic: %v\n", event.GetTopic())
 	fmt.Printf("Server Event: %v\n", event.GetS())
-	fmt.Printf("Player Event: %v\n", event.GetP())
+	PrintP(event.GetP())
 	fmt.Printf("Monster Event: %v\n", event.GetM())
 }
 
