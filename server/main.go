@@ -31,6 +31,15 @@ type server struct {
 	serverNodeMutex sync.Mutex
 }
 
+func PrintS(s *pb.ServerEvent) {
+	if s == nil {
+		return
+	}
+	fmt.Printf("Server ID: %v\n", s.GetId())
+	fmt.Printf("Server Event Type: %v\n", s.GetType())
+	fmt.Printf("Server Event Value: %v\n", s)
+}
+
 func PrintP(p *pb.PlayerEvent) {
 	if p == nil {
 		return
@@ -40,11 +49,20 @@ func PrintP(p *pb.PlayerEvent) {
 	fmt.Printf("Player Event Value: %v\n", p)
 }
 
+func PrintM(m *pb.MonsterEvent) {
+	if m == nil {
+		return
+	}
+	fmt.Printf("Monster ID: %v\n", m.GetId())
+	fmt.Printf("Monster Event Type: %v\n", m.GetType())
+	fmt.Printf("Monster Event Value: %v\n", m)
+}
+
 func Print(event *pb.Event) {
-	fmt.Printf("Topic: %v\n", event.GetTopic())
-	fmt.Printf("Server Event: %v\n", event.GetS())
+	fmt.Printf("Event Topic: %v\n", event.GetTopic())
+	PrintS(event.GetS())
 	PrintP(event.GetP())
-	fmt.Printf("Monster Event: %v\n", event.GetM())
+	PrintM(event.GetM())
 }
 
 func newServer() *server {
@@ -54,7 +72,6 @@ func newServer() *server {
 	}
 }
 
-// SayHello implements helloworld.GreeterServer
 func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 	md, ok := metadata.FromIncomingContext(stream.Context())
 	if !ok {
@@ -191,11 +208,11 @@ func (s *server) Publish(stream pb.ToB_PublishServer) error {
 		default:
 			if id == s.serverNode {
 				s.broadcast(event, false)
-				fmt.Printf("Broadcast to all nodes\n")
+				//fmt.Printf("Broadcast to all nodes\n")
 			} else {
 				if s.nodes[s.serverNode] != nil {
 					s.nodes[s.serverNode].stream.Send(event)
-					fmt.Printf("Forward to server %v\n", s.serverNode)
+					//fmt.Printf("Forward to server %v\n", s.serverNode)
 				}
 			}
 		}
