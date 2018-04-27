@@ -10,6 +10,7 @@ import (
 	"math/rand"
 	"time"
 	"google.golang.org/grpc/metadata"
+	"fmt"
 )
 
 var (
@@ -47,7 +48,7 @@ func subscribeWorker(client pb.ToBClient, wg *sync.WaitGroup) {
 			log.Printf("Subscribe stream Recv failed: %v\n", err)
 		}
 
-		log.Printf("Received event: %v\n", event)
+		fmt.Printf("Received event: %v\n", event)
 	}
 }
 
@@ -62,6 +63,7 @@ func publishWroker(client pb.ToBClient, wg *sync.WaitGroup) {
 	}
 
 	for event := range eventChan {
+		fmt.Printf("Sending event: %v\n", event)
 		stream.Send(event)
 	}
 }
@@ -81,4 +83,22 @@ func main() {
 	go subscribeWorker(client, wg)
 	go publishWroker(client, wg)
 	wg.Add(2)
+
+	ticker := time.NewTicker(time.Second)
+	defer ticker.Stop()
+
+	for {
+		select {
+		case <-ticker.C:
+			eventChan <- &pb.Event{
+				Topic: pb.EventTopic_PLAYER_EVENT,
+				P: &pb.PlayerEvent{
+					Type: pb.PlayerEventType_PLAYER_ENTER,
+					Appearance: &pb.PlayerAppearance{
+						Name: "Player 1",
+					},
+				},
+			}
+		}
+	}
 }
