@@ -19,16 +19,28 @@ const (
 	port = "0.0.0.0:16882"
 )
 
+type node struct {
+	stream pb.ToB_SubscribeServer
+	done   chan struct{}
+}
+
 // server is used to implement tob.ToBServer.
 type server struct {
-	nodes           map[string]pb.ToB_SubscribeServer
+	nodes           map[string]*node
 	serverNode      string
 	serverNodeMutex sync.Mutex
 }
 
+func Print(event *pb.Event) {
+	fmt.Printf("Topic: %v\n", event.GetTopic())
+	fmt.Printf("Server Event: %v\n", event.GetS())
+	fmt.Printf("Player Event: %v\n", event.GetP())
+	fmt.Printf("Monster Event: %v\n", event.GetM())
+}
+
 func newServer() *server {
 	return &server{
-		nodes:      make(map[string]pb.ToB_SubscribeServer),
+		nodes:      make(map[string]*node),
 		serverNode: "",
 	}
 }
@@ -45,11 +57,15 @@ func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 	}
 	id := ids[0]
 
-
 	fmt.Printf("Subscribe: node %v\n", id)
 
+	node := &node{
+		stream: stream,
+		done:   make(chan struct{}),
+	}
+
 	// Register the node
-	s.nodes[id] = stream
+	s.nodes[id] = node
 
 	stream.Context()
 
@@ -59,11 +75,12 @@ func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 		// server node not assigned
 		// assign server node to this new node
 		s.serverNode = id
+		fmt.Printf("Set server node: %v\n", s.serverNode)
 		// Tell all nodes about this event
 		s.broadcast(&pb.Event{
 			Topic: pb.EventTopic_SERVER_EVENT,
 			S: &pb.ServerEvent{
-				Id: id,
+				Id:   id,
 				Type: pb.ServerEventType_SERVER_CHANGE,
 			},
 		}, false)
@@ -75,14 +92,17 @@ func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 	stream.Send(&pb.Event{
 		Topic: pb.EventTopic_SERVER_EVENT,
 		S: &pb.ServerEvent{
-			Id: s.serverNode,
+			Id:   s.serverNode,
 			Type: pb.ServerEventType_SERVER_CHANGE,
 		},
 	})
 
 	// Long-live stream
 	// Keep alive until the client disconnects
-	<-stream.Context().Done()
+	select {
+	case <-stream.Context().Done():
+	case <-node.done:
+	}
 
 	// Client disconnected, so we un-register the node
 	delete(s.nodes, id)
@@ -102,14 +122,17 @@ func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 			}
 			// Set the node as the new server node
 			s.serverNode = newServer
+			fmt.Printf("Set server node: %v\n", s.serverNode)
 			// Tell all nodes the new server
 			s.broadcast(&pb.Event{
 				Topic: pb.EventTopic_SERVER_EVENT,
 				S: &pb.ServerEvent{
-					Id: newServer,
+					Id:   newServer,
 					Type: pb.ServerEventType_SERVER_CHANGE,
 				},
 			}, true)
+		} else {
+			s.serverNode = ""
 		}
 	}
 	return nil
@@ -131,21 +154,30 @@ func (s *server) Publish(stream pb.ToB_PublishServer) error {
 		if err == io.EOF {
 			// Oh! the client ended the stream
 			// It's very likely the client shuts down
+			if s.nodes[id] != nil {
+				close(s.nodes[id].done)
+			}
+			return nil
 		}
 		if err != nil {
 			return err
 		}
-		fmt.Printf("Received from %v: %v\n", id, event)
+		fmt.Printf("Received from %v\n", id)
+		Print(event)
 		switch event.GetTopic() {
 		case pb.EventTopic_SERVER_EVENT:
-			// No one should publish server event
-			// Ignore the event
+			serverEvent := event.GetS()
+			if id == s.serverNode && serverEvent != nil && serverEvent.GetType() == pb.ServerEventType_SERVER_YIELD {
+				// Server is yielding, it's going offline
+				close(s.nodes[s.serverNode].done)
+				return nil
+			}
 		default:
 			if id == s.serverNode {
 				s.broadcast(event, false)
 				fmt.Printf("Broadcast to all nodes\n")
 			} else {
-				s.nodes[s.serverNode].Send(event)
+				s.nodes[s.serverNode].stream.Send(event)
 				fmt.Printf("Forward to server %v\n", s.serverNode)
 			}
 		}
@@ -154,9 +186,9 @@ func (s *server) Publish(stream pb.ToB_PublishServer) error {
 }
 
 func (s *server) broadcast(event *pb.Event, includeServer bool) error {
-	for id, stream := range s.nodes {
+	for id, node := range s.nodes {
 		if includeServer || id != s.serverNode {
-			stream.Send(event)
+			node.stream.Send(event)
 		}
 	}
 	return nil
