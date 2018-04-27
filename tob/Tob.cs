@@ -68,12 +68,13 @@ namespace Tob {
             "QUdFRBAEEg4KClBMQVlFUl9ESUUQBRIPCgtQTEFZRVJfSlVNUBAGEhEKDVBM",
             "QVlFUl9DUk9VQ0gQBxITCg9QTEFZRVJfUE9TSVRJT04QCBITCg9QTEFZRVJf",
             "RVFVSVBQRUQQCRIUChBQTEFZRVJfQU5JTUFUSU9OEAoqHgoGR2VuZGVyEggK",
-            "BE1BTEUQABIKCgZGRU1BTEUQASqcAQoQTW9uc3RlckV2ZW50VHlwZRIRCg1N",
+            "BE1BTEUQABIKCgZGRU1BTEUQASquAQoQTW9uc3RlckV2ZW50VHlwZRIRCg1N",
             "T05TVEVSX1NQQVdOEAASEAoMTU9OU1RFUl9NT1ZFEAESEgoOTU9OU1RFUl9B",
             "VFRBQ0sQAhIPCgtNT05TVEVSX0RJRRADEhMKD01PTlNURVJfREVTVFJPWRAE",
-            "EhAKDE1PTlNURVJfTE9PVBAFEhcKE01PTlNURVJfTE9PVF9SRVNVTFQQBjJR",
-            "CgNUb0ISJQoJU3Vic2NyaWJlEgoudG9iLkVtcHR5GgoudG9iLkV2ZW50MAES",
-            "IwoHUHVibGlzaBIKLnRvYi5FdmVudBoKLnRvYi5FbXB0eSgBYgZwcm90bzM="));
+            "EhAKDE1PTlNURVJfTE9PVBAFEhcKE01PTlNURVJfTE9PVF9SRVNVTFQQBhIQ",
+            "CgxNT05TVEVSX0JBQ0sQBzJRCgNUb0ISJQoJU3Vic2NyaWJlEgoudG9iLkVt",
+            "cHR5GgoudG9iLkV2ZW50MAESIwoHUHVibGlzaBIKLnRvYi5FdmVudBoKLnRv",
+            "Yi5FbXB0eSgBYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tob.EventTopic), typeof(global::Tob.ServerEventType), typeof(global::Tob.PlayerEventType), typeof(global::Tob.Gender), typeof(global::Tob.MonsterEventType), }, new pbr::GeneratedClrTypeInfo[] {
@@ -143,6 +144,10 @@ namespace Tob {
     [pbr::OriginalName("MONSTER_DESTROY")] MonsterDestroy = 4,
     [pbr::OriginalName("MONSTER_LOOT")] MonsterLoot = 5,
     [pbr::OriginalName("MONSTER_LOOT_RESULT")] MonsterLootResult = 6,
+    /// <summary>
+    /// Monster goes back to its original position
+    /// </summary>
+    [pbr::OriginalName("MONSTER_BACK")] MonsterBack = 7,
   }
 
   #endregion

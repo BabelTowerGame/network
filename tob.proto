@@ -103,6 +103,7 @@ enum MonsterEventType {
     MONSTER_DESTROY = 4;
     MONSTER_LOOT = 5;
     MONSTER_LOOT_RESULT = 6;
+    MONSTER_BACK = 7; // Monster goes back to its original position
 }
 
 message MonsterSpawnEvent {
