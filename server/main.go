@@ -135,6 +135,7 @@ func (s *server) Subscribe(_ *pb.Empty, stream pb.ToB_SubscribeServer) error {
 			}, true)
 		} else {
 			s.serverNode = ""
+			fmt.Printf("Set server node: (None)\n")
 		}
 	}
 	return nil
