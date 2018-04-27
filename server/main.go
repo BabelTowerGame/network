@@ -167,8 +167,10 @@ func (s *server) Publish(stream pb.ToB_PublishServer) error {
 		if err != nil {
 			return err
 		}
-		fmt.Printf("Received from %v\n", id)
-		Print(event)
+		if event.Topic != pb.EventTopic_PLAYER_EVENT || (event.P.Type != pb.PlayerEventType_PLAYER_ANIMATION && event.P.Type != pb.PlayerEventType_PLAYER_POSITION) {
+			fmt.Printf("Received from %v\n", id)
+			Print(event)
+		}
 		switch event.GetTopic() {
 		case pb.EventTopic_SERVER_EVENT:
 			serverEvent := event.GetS()
