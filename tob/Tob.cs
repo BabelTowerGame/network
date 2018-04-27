@@ -28,55 +28,54 @@ namespace Tob {
             "dBIQCghwcmV2aW91cxgBIAEoCRIPCgdjdXJyZW50GAIgASgJIj0KC1NlcnZl",
             "ckV2ZW50EgoKAmlkGAEgASgJEiIKBHR5cGUYAiABKA4yFC50b2IuU2VydmVy",
             "RXZlbnRUeXBlIikKBlZlY3RvchIJCgF4GAEgASgCEgkKAXkYAiABKAISCQoB",
-            "ehgDIAEoAiI4CgpRdWF0ZXJuaW9uEgkKAWEYASABKAISCQoBYhgCIAEoAhIJ",
-            "CgFjGAMgASgCEgkKAWQYBCABKAIiUgoPUGxheWVyTW92ZUV2ZW50EhsKBnRh",
-            "cmdldBgBIAEoCzILLnRvYi5WZWN0b3ISIgoJZGlyZWN0aW9uGAIgASgLMg8u",
-            "dG9iLlF1YXRlcm5pb24iVAoPUGxheWVyQ2FzdEV2ZW50EgoKAmlkGAEgASgJ",
-            "EhAKCHRhcmdldElkGAIgASgJEiMKDnRhcmdldFBvc2l0aW9uGAMgASgLMgsu",
-            "dG9iLlZlY3RvciJQChBQbGF5ZXJBcHBlYXJhbmNlEgwKBG5hbWUYASABKAkS",
-            "GwoGZ2VuZGVyGAIgASgOMgsudG9iLkdlbmRlchIRCgloYWlyQ29sb3IYAyAB",
-            "KAUiaQoNUGxheWVyRXF1aXBlZBIOCgZ3ZWFwb24YASABKAkSDAoEaGVhZBgC",
-            "IAEoCRINCgVjaGVzdBgDIAEoCRIMCgRsZWdzGAQgASgJEg0KBXNob2VzGAUg",
-            "ASgJEg4KBnNoaWVsZBgGIAEoCSJ9ChRQbGF5ZXJBbmltYXRpb25FdmVudBIR",
-            "CglzdGF0ZUhhc2gYASADKAUSFgoObm9ybWFsaXplZFRpbWUYAiADKAISEQoJ",
-            "aW50UGFyYW1zGAMgAygFEhMKC2Zsb2F0UGFyYW1zGAQgAygCEhIKCmJvb2xQ",
-            "YXJhbXMYBSADKAgisgIKC1BsYXllckV2ZW50EgoKAmlkGAEgASgJEiIKBHR5",
-            "cGUYAiABKA4yFC50b2IuUGxheWVyRXZlbnRUeXBlEiIKBG1vdmUYAyABKAsy",
-            "FC50b2IuUGxheWVyTW92ZUV2ZW50Eh0KCHBvc2l0aW9uGAQgASgLMgsudG9i",
-            "LlZlY3RvchIiCgRjYXN0GAUgASgLMhQudG9iLlBsYXllckNhc3RFdmVudBIO",
-            "CgZkYW1hZ2UYBiABKAISKQoKYXBwZWFyYW5jZRgHIAEoCzIVLnRvYi5QbGF5",
-            "ZXJBcHBlYXJhbmNlEiMKB2VxdWlwZWQYCCABKAsyEi50b2IuUGxheWVyRXF1",
-            "aXBlZBIsCglhbmltYXRpb24YCSABKAsyGS50b2IuUGxheWVyQW5pbWF0aW9u",
-            "RXZlbnQieAoRTW9uc3RlclNwYXduRXZlbnQSCgoCaWQYASABKAkSEQoJZGVt",
-            "b25UeXBlGAIgASgFEhEKCWRlbW9uU2tpbhgDIAEoBRISCgp3ZWFwb25UeXBl",
-            "GAQgASgFEh0KCHBvc2l0aW9uGAUgASgLMgsudG9iLlZlY3RvciJOChBNb25z",
-            "dGVyTW92ZUV2ZW50Eh0KCHBvc2l0aW9uGAEgASgLMgsudG9iLlZlY3RvchIb",
-            "CgZ0YXJnZXQYAiABKAsyCy50b2IuVmVjdG9yIkcKEE1vbnN0ZXJMb290RXZl",
-            "bnQSEAoIcGxheWVySWQYASABKAkSDgoGaXRlbUlkGAIgASgJEhEKCW1vbnN0",
-            "ZXJJZBgDIAEoCSIgCg9Nb25zdGVyRGllRXZlbnQSDQoFaXRlbXMYASADKAUi",
-            "0wEKDE1vbnN0ZXJFdmVudBIKCgJpZBgBIAEoCRIjCgR0eXBlGAIgASgOMhUu",
-            "dG9iLk1vbnN0ZXJFdmVudFR5cGUSJQoFc3Bhd24YAyABKAsyFi50b2IuTW9u",
-            "c3RlclNwYXduRXZlbnQSIwoEbG9vdBgEIAEoCzIVLnRvYi5Nb25zdGVyTG9v",
-            "dEV2ZW50EiMKBG1vdmUYBSABKAsyFS50b2IuTW9uc3Rlck1vdmVFdmVudBIh",
-            "CgNkaWUYBiABKAsyFC50b2IuTW9uc3RlckRpZUV2ZW50In8KBUV2ZW50Eh4K",
-            "BXRvcGljGAEgASgOMg8udG9iLkV2ZW50VG9waWMSGwoBcxgCIAEoCzIQLnRv",
-            "Yi5TZXJ2ZXJFdmVudBIbCgFwGAMgASgLMhAudG9iLlBsYXllckV2ZW50EhwK",
-            "AW0YBCABKAsyES50b2IuTW9uc3RlckV2ZW50KkMKCkV2ZW50VG9waWMSEAoM",
-            "U0VSVkVSX0VWRU5UEAASEAoMUExBWUVSX0VWRU5UEAESEQoNTU9OU1RFUl9F",
-            "VkVOVBACKjYKD1NlcnZlckV2ZW50VHlwZRIRCg1TRVJWRVJfQ0hBTkdFEAAS",
-            "EAoMU0VSVkVSX1lJRUxEEAEq3gEKD1BsYXllckV2ZW50VHlwZRIQCgxQTEFZ",
-            "RVJfRU5URVIQABIPCgtQTEFZRVJfRVhJVBABEg8KC1BMQVlFUl9NT1ZFEAIS",
-            "DwoLUExBWUVSX0NBU1QQAxISCg5QTEFZRVJfREFNQUdFRBAEEg4KClBMQVlF",
-            "Ul9ESUUQBRIPCgtQTEFZRVJfSlVNUBAGEhEKDVBMQVlFUl9DUk9VQ0gQBxIT",
-            "Cg9QTEFZRVJfUE9TSVRJT04QCBITCg9QTEFZRVJfRVFVSVBQRUQQCRIUChBQ",
-            "TEFZRVJfQU5JTUFUSU9OEAoqHgoGR2VuZGVyEggKBE1BTEUQABIKCgZGRU1B",
-            "TEUQASquAQoQTW9uc3RlckV2ZW50VHlwZRIRCg1NT05TVEVSX1NQQVdOEAAS",
-            "EAoMTU9OU1RFUl9NT1ZFEAESEgoOTU9OU1RFUl9BVFRBQ0sQAhIPCgtNT05T",
-            "VEVSX0RJRRADEhMKD01PTlNURVJfREVTVFJPWRAEEhAKDE1PTlNURVJfTE9P",
-            "VBAFEhcKE01PTlNURVJfTE9PVF9SRVNVTFQQBhIQCgxNT05TVEVSX0JBQ0sQ",
-            "BzJRCgNUb0ISJQoJU3Vic2NyaWJlEgoudG9iLkVtcHR5GgoudG9iLkV2ZW50",
-            "MAESIwoHUHVibGlzaBIKLnRvYi5FdmVudBoKLnRvYi5FbXB0eSgBYgZwcm90",
-            "bzM="));
+            "ehgDIAEoAiIyCgRRdWFkEgkKAWEYASABKAISCQoBYhgCIAEoAhIJCgFjGAMg",
+            "ASgCEgkKAWQYBCABKAIiTAoPUGxheWVyTW92ZUV2ZW50EhsKBnRhcmdldBgB",
+            "IAEoCzILLnRvYi5WZWN0b3ISHAoJZGlyZWN0aW9uGAIgASgLMgkudG9iLlF1",
+            "YWQiVAoPUGxheWVyQ2FzdEV2ZW50EgoKAmlkGAEgASgJEhAKCHRhcmdldElk",
+            "GAIgASgJEiMKDnRhcmdldFBvc2l0aW9uGAMgASgLMgsudG9iLlZlY3RvciJQ",
+            "ChBQbGF5ZXJBcHBlYXJhbmNlEgwKBG5hbWUYASABKAkSGwoGZ2VuZGVyGAIg",
+            "ASgOMgsudG9iLkdlbmRlchIRCgloYWlyQ29sb3IYAyABKAUiaQoNUGxheWVy",
+            "RXF1aXBlZBIOCgZ3ZWFwb24YASABKAkSDAoEaGVhZBgCIAEoCRINCgVjaGVz",
+            "dBgDIAEoCRIMCgRsZWdzGAQgASgJEg0KBXNob2VzGAUgASgJEg4KBnNoaWVs",
+            "ZBgGIAEoCSJ9ChRQbGF5ZXJBbmltYXRpb25FdmVudBIRCglzdGF0ZUhhc2gY",
+            "ASADKAUSFgoObm9ybWFsaXplZFRpbWUYAiADKAISEQoJaW50UGFyYW1zGAMg",
+            "AygFEhMKC2Zsb2F0UGFyYW1zGAQgAygCEhIKCmJvb2xQYXJhbXMYBSADKAgi",
+            "sgIKC1BsYXllckV2ZW50EgoKAmlkGAEgASgJEiIKBHR5cGUYAiABKA4yFC50",
+            "b2IuUGxheWVyRXZlbnRUeXBlEiIKBG1vdmUYAyABKAsyFC50b2IuUGxheWVy",
+            "TW92ZUV2ZW50Eh0KCHBvc2l0aW9uGAQgASgLMgsudG9iLlZlY3RvchIiCgRj",
+            "YXN0GAUgASgLMhQudG9iLlBsYXllckNhc3RFdmVudBIOCgZkYW1hZ2UYBiAB",
+            "KAISKQoKYXBwZWFyYW5jZRgHIAEoCzIVLnRvYi5QbGF5ZXJBcHBlYXJhbmNl",
+            "EiMKB2VxdWlwZWQYCCABKAsyEi50b2IuUGxheWVyRXF1aXBlZBIsCglhbmlt",
+            "YXRpb24YCSABKAsyGS50b2IuUGxheWVyQW5pbWF0aW9uRXZlbnQieAoRTW9u",
+            "c3RlclNwYXduRXZlbnQSCgoCaWQYASABKAkSEQoJZGVtb25UeXBlGAIgASgF",
+            "EhEKCWRlbW9uU2tpbhgDIAEoBRISCgp3ZWFwb25UeXBlGAQgASgFEh0KCHBv",
+            "c2l0aW9uGAUgASgLMgsudG9iLlZlY3RvciJOChBNb25zdGVyTW92ZUV2ZW50",
+            "Eh0KCHBvc2l0aW9uGAEgASgLMgsudG9iLlZlY3RvchIbCgZ0YXJnZXQYAiAB",
+            "KAsyCy50b2IuVmVjdG9yIkcKEE1vbnN0ZXJMb290RXZlbnQSEAoIcGxheWVy",
+            "SWQYASABKAkSDgoGaXRlbUlkGAIgASgJEhEKCW1vbnN0ZXJJZBgDIAEoCSIg",
+            "Cg9Nb25zdGVyRGllRXZlbnQSDQoFaXRlbXMYASADKAUi0wEKDE1vbnN0ZXJF",
+            "dmVudBIKCgJpZBgBIAEoCRIjCgR0eXBlGAIgASgOMhUudG9iLk1vbnN0ZXJF",
+            "dmVudFR5cGUSJQoFc3Bhd24YAyABKAsyFi50b2IuTW9uc3RlclNwYXduRXZl",
+            "bnQSIwoEbG9vdBgEIAEoCzIVLnRvYi5Nb25zdGVyTG9vdEV2ZW50EiMKBG1v",
+            "dmUYBSABKAsyFS50b2IuTW9uc3Rlck1vdmVFdmVudBIhCgNkaWUYBiABKAsy",
+            "FC50b2IuTW9uc3RlckRpZUV2ZW50In8KBUV2ZW50Eh4KBXRvcGljGAEgASgO",
+            "Mg8udG9iLkV2ZW50VG9waWMSGwoBcxgCIAEoCzIQLnRvYi5TZXJ2ZXJFdmVu",
+            "dBIbCgFwGAMgASgLMhAudG9iLlBsYXllckV2ZW50EhwKAW0YBCABKAsyES50",
+            "b2IuTW9uc3RlckV2ZW50KkMKCkV2ZW50VG9waWMSEAoMU0VSVkVSX0VWRU5U",
+            "EAASEAoMUExBWUVSX0VWRU5UEAESEQoNTU9OU1RFUl9FVkVOVBACKjYKD1Nl",
+            "cnZlckV2ZW50VHlwZRIRCg1TRVJWRVJfQ0hBTkdFEAASEAoMU0VSVkVSX1lJ",
+            "RUxEEAEq3gEKD1BsYXllckV2ZW50VHlwZRIQCgxQTEFZRVJfRU5URVIQABIP",
+            "CgtQTEFZRVJfRVhJVBABEg8KC1BMQVlFUl9NT1ZFEAISDwoLUExBWUVSX0NB",
+            "U1QQAxISCg5QTEFZRVJfREFNQUdFRBAEEg4KClBMQVlFUl9ESUUQBRIPCgtQ",
+            "TEFZRVJfSlVNUBAGEhEKDVBMQVlFUl9DUk9VQ0gQBxITCg9QTEFZRVJfUE9T",
+            "SVRJT04QCBITCg9QTEFZRVJfRVFVSVBQRUQQCRIUChBQTEFZRVJfQU5JTUFU",
+            "SU9OEAoqHgoGR2VuZGVyEggKBE1BTEUQABIKCgZGRU1BTEUQASquAQoQTW9u",
+            "c3RlckV2ZW50VHlwZRIRCg1NT05TVEVSX1NQQVdOEAASEAoMTU9OU1RFUl9N",
+            "T1ZFEAESEgoOTU9OU1RFUl9BVFRBQ0sQAhIPCgtNT05TVEVSX0RJRRADEhMK",
+            "D01PTlNURVJfREVTVFJPWRAEEhAKDE1PTlNURVJfTE9PVBAFEhcKE01PTlNU",
+            "RVJfTE9PVF9SRVNVTFQQBhIQCgxNT05TVEVSX0JBQ0sQBzJRCgNUb0ISJQoJ",
+            "U3Vic2NyaWJlEgoudG9iLkVtcHR5GgoudG9iLkV2ZW50MAESIwoHUHVibGlz",
+            "aBIKLnRvYi5FdmVudBoKLnRvYi5FbXB0eSgBYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tob.EventTopic), typeof(global::Tob.ServerEventType), typeof(global::Tob.PlayerEventType), typeof(global::Tob.Gender), typeof(global::Tob.MonsterEventType), }, new pbr::GeneratedClrTypeInfo[] {
@@ -84,7 +83,7 @@ namespace Tob {
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.ServerChangeEvent), global::Tob.ServerChangeEvent.Parser, new[]{ "Previous", "Current" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.ServerEvent), global::Tob.ServerEvent.Parser, new[]{ "Id", "Type" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.Vector), global::Tob.Vector.Parser, new[]{ "X", "Y", "Z" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tob.Quaternion), global::Tob.Quaternion.Parser, new[]{ "A", "B", "C", "D" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Tob.Quad), global::Tob.Quad.Parser, new[]{ "A", "B", "C", "D" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerMoveEvent), global::Tob.PlayerMoveEvent.Parser, new[]{ "Target", "Direction" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerCastEvent), global::Tob.PlayerCastEvent.Parser, new[]{ "Id", "TargetId", "TargetPosition" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Tob.PlayerAppearance), global::Tob.PlayerAppearance.Parser, new[]{ "Name", "Gender", "HairColor" }, null, null, null),
@@ -762,11 +761,11 @@ namespace Tob {
 
   }
 
-  public sealed partial class Quaternion : pb::IMessage<Quaternion> {
-    private static readonly pb::MessageParser<Quaternion> _parser = new pb::MessageParser<Quaternion>(() => new Quaternion());
+  public sealed partial class Quad : pb::IMessage<Quad> {
+    private static readonly pb::MessageParser<Quad> _parser = new pb::MessageParser<Quad>(() => new Quad());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<Quaternion> Parser { get { return _parser; } }
+    public static pb::MessageParser<Quad> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -779,14 +778,14 @@ namespace Tob {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public Quaternion() {
+    public Quad() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public Quaternion(Quaternion other) : this() {
+    public Quad(Quad other) : this() {
       a_ = other.a_;
       b_ = other.b_;
       c_ = other.c_;
@@ -795,8 +794,8 @@ namespace Tob {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public Quaternion Clone() {
-      return new Quaternion(this);
+    public Quad Clone() {
+      return new Quad(this);
     }
 
     /// <summary>Field number for the "a" field.</summary>
@@ -845,11 +844,11 @@ namespace Tob {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as Quaternion);
+      return Equals(other as Quad);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(Quaternion other) {
+    public bool Equals(Quad other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -926,7 +925,7 @@ namespace Tob {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(Quaternion other) {
+    public void MergeFrom(Quad other) {
       if (other == null) {
         return;
       }
@@ -1023,9 +1022,9 @@ namespace Tob {
 
     /// <summary>Field number for the "direction" field.</summary>
     public const int DirectionFieldNumber = 2;
-    private global::Tob.Quaternion direction_;
+    private global::Tob.Quad direction_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tob.Quaternion Direction {
+    public global::Tob.Quad Direction {
       get { return direction_; }
       set {
         direction_ = value;
@@ -1109,7 +1108,7 @@ namespace Tob {
       }
       if (other.direction_ != null) {
         if (direction_ == null) {
-          direction_ = new global::Tob.Quaternion();
+          direction_ = new global::Tob.Quad();
         }
         Direction.MergeFrom(other.Direction);
       }
@@ -1133,7 +1132,7 @@ namespace Tob {
           }
           case 18: {
             if (direction_ == null) {
-              direction_ = new global::Tob.Quaternion();
+              direction_ = new global::Tob.Quad();
             }
             input.ReadMessage(direction_);
             break;
